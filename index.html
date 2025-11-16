@@ -327,7 +327,6 @@
             padding-left: 50px;
             padding-right: 40px;
             border: none;
-            background: transparent;
             color: var(--text-color);
             font-size: 1rem;
             appearance: none;
@@ -340,6 +339,9 @@
             position: relative;
             z-index: 1;
             width: 100%;
+
+            background: linear-gradient(45deg, #213f4c, transparent);
+    border-radius: 20px;
         }
 
         .filter-input-wrapper input::placeholder {
@@ -1367,14 +1369,14 @@
     <div id="page-home" class="page">
         <div class="top-marquee">
             <div class="marquee-content">
-                <span> TO BE COMPLETED 🏆 </span>
-                <span>TO BE COMPLETED 📲</span>
-                <span> TO BE COMPLETED 🏆 </span>
-                <span>TO BE COMPLETED 📲</span>
-                <span> TO BE COMPLETED 🏆 </span>
-                <span>TO BE COMPLETED 📲</span>
-                <span> TO BE COMPLETED 🏆 </span>
-                <span>TO BE COMPLETED 📲</span>
+                <span> EXPLORE OUR CATEGORIES 🗺️ </span>
+                <span>FIND WHAT YOU'RE LOOKING FOR 🔍 </span>
+                <span> EXPLORE OUR CATEGORIES 🗺️ </span>
+                <span>FIND WHAT YOU'RE LOOKING FOR 🔍 </span>
+                <span> EXPLORE OUR CATEGORIES 🗺️ </span>
+                <span>FIND WHAT YOU'RE LOOKING FOR 🔍 </span>
+                <span> EXPLORE OUR CATEGORIES 🗺️ </span>
+                <span>FIND WHAT YOU'RE LOOKING FOR 🔍 </span>
 
             </div>
         </div>
@@ -1389,9 +1391,9 @@
         </div>
 
         <div class="filters">
-            <div class="filter-input-wrapper" style="display:none ;">
-                <svg width="20" height="20">
-                    <use href="#icon-search" />
+            <div class="filter-input-wrapper">
+                <svg width="20" height="20"> 
+                    <use href="#icon-search"/>
                 </svg>
                 <input type="text" id="search-filter" placeholder="Rechercher un produit...">
             </div>

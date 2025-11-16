@@ -197,22 +197,308 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'CANNA',
-            name: ' ⭐ Cannabis Products',
+            name: ' 🧬 Thc/Cannabis Products',
             farm: '',
             type: 'CANNA',
-            quality: ' ⭐ Cannabis Products',
+            quality: ' 🧬 Thc Products',
             image: 'CategCana.png', // Image de la catégorie
 
             farms: [
-               /* {
-                    id: 'WIZARDTREES', // J'ai inventé un ID de farm
-                    name: 'Wizard trees 🔮',
-                    image: 'Wizard4.png', // Mets une image de farm si tu veux
-                    badgeText: '2 produits',
+             {
+                    id: 'Hash',
+                    name: 'Hash 🍫',
+                    image: 'SousHash.png', // Mets une image de farm si tu veux
+                    badgeText: '5 produits',
                     products: [
-                        
+                        {
+                            id: 'IceOLator',
+                            flag: '🇺🇸',
+                            name: '❄️ Ice-O-Lator ❄️',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'BubbleHash',
+                            flag: '🇺🇸',
+                            name: '🫧 Bubble Hash 🫧',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'FrozenSift',
+                            flag: '🇺🇸',
+                            name: '😈 Frozen Sift 😈',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        },
+                        {
+                            id: 'StaticSift',
+                            flag: '',
+                            name: '👹 Static Sift 👹',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        },
+                        {
+                            id: 'DrySift',
+                            flag: '🇺🇸',
+                            name: '🥵 Dry Sift 🥵',
+                            farm: '❄️ Frosty hash ❄️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        },
+                        {
+                            id: 'Semi-Dry',
+                            flag: '',
+                            name: '🥶 Semi-Dry 🥶',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        },
+                        {
+                            id: 'Lamousse',
+                            flag: '🇺🇸',
+                            name: '🧽 LaMousse 🧽',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        }
                     ]
-                } */
+                },
+                {
+                    id: 'WeedUsa',
+                    name: 'Weed ( USA ) 🇺🇸',
+                    image: 'SousWeedUsa.png', // Mets une image de farm si tu veux
+                    badgeText: '5 produits',
+                    products: [
+                        {
+                            id: 'IceOLator',
+                            flag: '🇺🇸',
+                            name: 'Branded Cali',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'BubbleHash',
+                            flag: '🇺🇸',
+                            name: ' Exoticz ',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'FrozenSift',
+                            flag: '🇺🇸',
+                            name: 'Topshelf',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        },
+                        {
+                            id: 'StaticSift',
+                            flag: '',
+                            name: 'Midshelf',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        },
+                        {
+                            id: 'DrySift',
+                            flag: '🇺🇸',
+                            name: 'Deps',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        },
+                        {
+                            id: 'Semi-Dry',
+                            flag: '',
+                            name: 'Lows',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'WeedNl',
+                    name: 'Weed ( NL ) 🇳🇱',
+                    image: 'SousWeedNl.png', // Mets une image de farm si tu veux
+                    badgeText: '5 produits',
+                    products: [
+                        {
+                            id: 'AmnesiaHaze',
+                            flag: '🇺🇸',
+                            name: ' Amnesia Haze ',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'LemonHaze',
+                            flag: '🇺🇸',
+                            name: 'Lemon Haze ',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'Edibles',
+                    name: '🧁 Edibles 🧁',
+                    image: 'SousEdibles.png', // Mets une image de farm si tu veux
+                    badgeText: '5 produits',
+                    products: [
+                        {
+                            id: 'IceOLator',
+                            flag: '🇺🇸',
+                            name: '500–600 mg (THC)',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Cake',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'ThcVapes',
+                    name: ' 💨 Thc Vapes 💨',
+                    image: 'SousThc.png', // Mets une image de farm si tu veux
+                    badgeText: '5 produits',
+                    products: [
+                        {
+                            id: '1000',
+                            flag: '🇺🇸',
+                            name: '1000 mg',
+                            farm: 'FARM',
+                            promoEligible: true,
+                            type: 'Vape',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -344,7 +630,7 @@ document.addEventListener('DOMContentLoaded', function () {
             renderCategoryList();
 
             // --- GESTION DES FILTRES (Vue Catégorie) ---
-            searchFilterWrapper.style.display = 'none';
+            searchFilterWrapper.style.display = '';
             farmFilterWrapper.style.display = 'none';
             qualityFilterWrapper.style.display = 'flex'; // On montre QUE la qualité
 
