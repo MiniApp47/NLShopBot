@@ -28,57 +28,57 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // La catégorie contient maintenant des "farms"
             farms: [
-                /* {
-                    id: 'Stimu',
-                    name: 'Stimulant 🏋️ ',
-                    image: 'CategStimu.png', // Mets une image de farm si tu veux
+                 {
+                    id: 'White',
+                    name: 'White 🏋️ ',
+                    image: 'SousWhite.png', // Mets une image de farm si tu veux
                     badgeText: '5 produits',
                     products: [
                         {
-                            id: 'Papaya',
+                            id: 'Bolivia',
                             flag: '🇺🇸',
-                            name: '🍑 Papaya 🍍',
-                            farm: '❄️ Frosty hash ❄️',
+                            name: 'Bolivia ',
+                            farm: '',
                             promoEligible: true,
-                            type: 'Hash',
-                            image: 'Neujeu3.png',
-                            video: 'VideoNejeu2.mp4',
-                            description: 'Type d\'exctraction \n Wpff/120u-73u',
+                            type: 'White',
+                            image: '',
+                            video: '',
+                            description: '',
                             tarifs: [
                                 { weight: '1g', price: 80.00 },
                                 { weight: '2g', price: 150.00 },
                             ]
                         },
                         {
-                            id: 'Bluezushi',
+                            id: 'Peru',
                             flag: '🇺🇸',
-                            name: '🍣 Blue Zushi 🍱',
-                            farm: '❄️ Frosty hash ❄️',
+                            name: ' Peru ',
+                            farm: '',
                             promoEligible: true,
-                            type: 'Hash',
-                            image: 'Neujeu4.png',
-                            video: 'VideoNejeu1.mp4',
-                            description: 'Type d\'exctraction \n Wpff-120u-73u',
+                            type: 'White',
+                            image: '',
+                            video: '',
+                            description: '',
                             tarifs: [
                                 { weight: '1g', price: 80.00 },
                                 { weight: '2g', price: 150.00 },
                             ]
                         },
                         {
-                            id: 'GakPak',
+                            id: 'Colombia',
                             flag: '🇺🇸',
-                            name: '🍑 Gak Pak 🍓',
-                            farm: '❄️ Frosty hash ❄️',
+                            name: ' Colombia ',
+                            farm: '',
                             promoEligible: true,
-                            type: 'Hash',
-                            image: 'Neujeu1.jpeg',
-                            video: 'MousseauStar.mp4',
-                            description: 'Type d\'exctraction \n Live rosin 70-120u',
+                            type: 'White',
+                            image: '',
+                            video: '',
+                            description: '',
                             tarifs: [
-                                { weight: '2g', price: 250.00 },
-                                { weight: '4g', price: 500.00 },
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
                             ]
-                        },
+                        }/*,
                         {
                             id: 'Zkittlez',
                             flag: '',
@@ -109,10 +109,10 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '2g', price: 250.00 },
                                 { weight: '4g', price: 500.00 },
                             ]
-                        }
+                        } */
                     ]
                 }
- */
+
             ]
         },
 
@@ -126,15 +126,144 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDepre.png', // Image de la catégorie
 
             farms: [
-              /* {
-                    id: 'WIZARDTREES', // J'ai inventé un ID de farm
-                    name: 'Wizard trees 🔮',
-                    image: 'Wizard4.png', // Mets une image de farm si tu veux
+              {
+                    id: 'GHB', // J'ai inventé un ID de farm
+                    name: 'GHB 🔮',
+                    image: 'ImgSousDepress/SousGhb.png', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
-                        
+                        {
+                            id: 'GHB',
+                            flag: '🇺🇸',
+                            name: 'GHB ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
                     ]
-                } */
+                },
+                {
+                    id: 'GBL', // J'ai inventé un ID de farm
+                    name: 'GBL ',
+                    image: 'ImgSousDepress/SousGbl.png', // Mets une image de farm si tu veux
+                    badgeText: '2 produits',
+                    products: [
+                        {
+                            id: 'GHB',
+                            flag: '🇺🇸',
+                            name: 'GHB ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'Lean', // J'ai inventé un ID de farm
+                    name: 'Lean',
+                    image: 'ImgSousDepress/SousLean.png', // Mets une image de farm si tu veux
+                    badgeText: '2 produits',
+                    products: [
+                        {
+                            id: 'GHB',
+                            flag: '🇺🇸',
+                            name: 'GHB ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'Benzo', // J'ai inventé un ID de farm
+                    name: 'Benzo\'s ',
+                    image: 'ImgSousDepress/SousBenzo.png', // Mets une image de farm si tu veux
+                    badgeText: '2 produits',
+                    products: [
+                        {
+                            id: 'GHB',
+                            flag: '🇺🇸',
+                            name: 'GHB ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'Stimu', // J'ai inventé un ID de farm
+                    name: 'Stimulan-medicaton',
+                    image: 'ImgSousDepress/SousStimu.png', // Mets une image de farm si tu veux
+                    badgeText: '2 produits',
+                    products: [
+                        {
+                            id: 'GHB',
+                            flag: '🇺🇸',
+                            name: 'GHB ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    id: 'Opiats', // J'ai inventé un ID de farm
+                    name: 'Opiats',
+                    image: 'ImgSousDepress/SousOpiats.png', // Mets une image de farm si tu veux
+                    badgeText: '2 produits',
+                    products: [
+                        {
+                            id: 'GHB',
+                            flag: '🇺🇸',
+                            name: 'GHB ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
+                    ]
+                },
             ]
         },
          // --- Catégorie 2: V.V.S TANGER ---
@@ -147,32 +276,68 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategPsy.png', 
 
             farms: [
-                /* {
-                    id: 'ESTATICO',
-                    name: 'Estatico 🚀 ',
-                    image: 'Estatico.jpeg', 
+            {
+                    id: 'LSD',
+                    name: 'LSD ',
+                    image: 'ImgSousPsy/SousLsd.png', 
                     badgeText: '0 produits',
                     // clickable: false, 
                     products: [
-                        /*
+                        
                         {
-                            id: 'Potion',
+                            id: 'LSD200',
                             flag: '🇺🇸',
-                            name: '🚀 Potion ✨',
-                            farm: '🔮 Wizard trees 🔮',
+                            name: ' LSD 200 ',
+                            farm: '',
                             promoEligible: false,
-                            type: 'Weed',
-                            image: 'PotionProduct.jpg',
-                            video: 'VideoCali1.mp4',
-                            description: 'Batch 09/09/2025 \n ( Limelight x Blackmagic )',
+                            type: 'Psychedelics',
+                            image: '',
+                            video: '',
+                            description: '',
                             tarifs: [
                                 { weight: '3,5g', price: 130.00 },
                                 { weight: '7g', price: 250.00 },
                                 { weight: '10,5g', price: 350.00 },
                             ]
-                        } 
+                        },
+                        {
+                            id: 'LSD300',
+                            flag: '🇺🇸',
+                            name: ' LSD 300 ',
+                            farm: '',
+                            promoEligible: false,
+                            type: 'Psychedelics',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '3,5g', price: 130.00 },
+                                { weight: '7g', price: 250.00 },
+                                { weight: '10,5g', price: 350.00 },
+                            ]
+                        }
                     ]
-                } */
+                },
+                {
+                    id: 'DMT',
+                    name: 'DMT ',
+                    image: 'ImgSousPsy/SousDmt.png', 
+                    badgeText: '0 produits',
+                    // clickable: false, 
+                    products: [
+                        
+                    ]
+                },
+                {
+                    id: 'Shrooms',
+                    name: 'Shrooms',
+                    image: 'ImgSousPsy/SousShrooms.png', 
+                    badgeText: '0 produits',
+                    // clickable: false, 
+                    products: [
+
+                    ]
+                } 
             ]
         },
         {
@@ -207,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function () {
              {
                     id: 'Hash',
                     name: 'Hash 🍫',
-                    image: 'SousHash.png', // Mets une image de farm si tu veux
+                    image: 'ImgSousCanna/SousHash.png', // Mets une image de farm si tu veux
                     badgeText: '5 produits',
                     products: [
                         {
@@ -320,7 +485,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 {
                     id: 'WeedUsa',
                     name: 'Weed ( USA ) 🇺🇸',
-                    image: 'SousWeedUsa.png', // Mets une image de farm si tu veux
+                    image: 'ImgSousCanna/SousWeedUsa.png', // Mets une image de farm si tu veux
                     badgeText: '5 produits',
                     products: [
                         {
@@ -418,7 +583,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 {
                     id: 'WeedNl',
                     name: 'Weed ( NL ) 🇳🇱',
-                    image: 'SousWeedNl.png', // Mets une image de farm si tu veux
+                    image: 'ImgSousCanna/SousWeedNl.png', // Mets une image de farm si tu veux
                     badgeText: '5 produits',
                     products: [
                         {
@@ -456,7 +621,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 {
                     id: 'Edibles',
                     name: '🧁 Edibles 🧁',
-                    image: 'SousEdibles.png', // Mets une image de farm si tu veux
+                    image: 'ImgSousCanna/SousEdibles.png', // Mets une image de farm si tu veux
                     badgeText: '5 produits',
                     products: [
                         {
@@ -479,7 +644,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 {
                     id: 'ThcVapes',
                     name: ' 💨 Thc Vapes 💨',
-                    image: 'SousThc.png', // Mets une image de farm si tu veux
+                    image: 'ImgSousCanna/SousThc.png', // Mets une image de farm si tu veux
                     badgeText: '5 produits',
                     products: [
                         {
@@ -508,6 +673,26 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'OPIO',
             quality: ' ⭐ Opioids',
             image: 'CategOpio.png', // Image de la catégorie
+
+            farms: [
+               /* {
+                    id: 'WIZARDTREES', // J'ai inventé un ID de farm
+                    name: 'Wizard trees 🔮',
+                    image: 'Wizard4.png', // Mets une image de farm si tu veux
+                    badgeText: '2 produits',
+                    products: [
+                        
+                    ]
+                } */
+            ]
+        },
+        {
+            id: 'SEUAL',
+            name: ' ⭐ Sexual Medications',
+            farm: '',
+            type: 'SEUAL',
+            quality: ' ⭐ Sexual Medications',
+            image: 'CategSeual.png', // Image de la catégorie
 
             farms: [
                /* {
