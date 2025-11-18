@@ -30,13 +30,13 @@ document.addEventListener('DOMContentLoaded', function () {
             farms: [
                  {
                     id: 'White',
-                    name: 'White 🏋️ ',
+                    name: 'White 💭 ',
                     image: 'SousWhite.png', // Mets une image de farm si tu veux
                     badgeText: '5 produits',
                     products: [
                         {
                             id: 'Bolivia',
-                            flag: '🇺🇸',
+                            flag: '🇧🇴',
                             name: 'Bolivia ',
                             farm: '',
                             promoEligible: true,
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         },
                         {
                             id: 'Peru',
-                            flag: '🇺🇸',
+                            flag: '🇵🇪',
                             name: ' Peru ',
                             farm: '',
                             promoEligible: true,
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         },
                         {
                             id: 'Colombia',
-                            flag: '🇺🇸',
+                            flag: '🇨🇴',
                             name: ' Colombia ',
                             farm: '',
                             promoEligible: true,
@@ -119,23 +119,23 @@ document.addEventListener('DOMContentLoaded', function () {
         // --- Catégorie 2: V.V.S TANGER ---
         {
             id: 'DEPRESS',
-            name: ' ⭐ Depressants',
+            name: ' 🌒 Depressants',
             farm: '',
             type: 'DEPRESS',
-            quality: ' ⭐ Depressants',
+            quality: ' 🌒 Depressants',
             image: 'CategDepre.png', // Image de la catégorie
 
             farms: [
               {
                     id: 'GHB', // J'ai inventé un ID de farm
-                    name: 'GHB 🔮',
+                    name: 'GHB 🦠',
                     image: 'ImgSousDepress/SousGhb.png', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
                         {
                             id: 'GHB',
                             flag: '🇺🇸',
-                            name: 'GHB ',
+                            name: 'GHB 🦠 ',
                             farm: '',
                             promoEligible: true,
                             type: 'Depressants',
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 {
                     id: 'GBL', // J'ai inventé un ID de farm
-                    name: 'GBL ',
+                    name: 'GBL 🦠',
                     image: 'ImgSousDepress/SousGbl.png', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 {
                     id: 'Lean', // J'ai inventé un ID de farm
-                    name: 'Lean',
+                    name: 'Lean 🥤',
                     image: 'ImgSousDepress/SousLean.png', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 {
                     id: 'Benzo', // J'ai inventé un ID de farm
-                    name: 'Benzo\'s ',
+                    name: 'Benzo\'s 👨🏻‍⚕️ ',
                     image: 'ImgSousDepress/SousBenzo.png', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 {
                     id: 'Stimu', // J'ai inventé un ID de farm
-                    name: 'Stimulan-medicaton',
+                    name: 'Stimulan-medicaton ⚕️',
                     image: 'ImgSousDepress/SousStimu.png', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 {
                     id: 'Opiats', // J'ai inventé un ID de farm
-                    name: 'Opiats',
+                    name: 'Opiats 💉',
                     image: 'ImgSousDepress/SousOpiats.png', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', function () {
             farms: [
             {
                     id: 'LSD',
-                    name: 'LSD ',
+                    name: 'LSD 🔋 ',
                     image: 'ImgSousPsy/SousLsd.png', 
                     badgeText: '0 produits',
                     // clickable: false, 
@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'LSD200',
                             flag: '🇺🇸',
-                            name: ' LSD 200 ',
+                            name: ' LSD 200 🔋 ',
                             farm: '',
                             promoEligible: false,
                             type: 'Psychedelics',
@@ -303,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'LSD300',
                             flag: '🇺🇸',
-                            name: ' LSD 300 ',
+                            name: ' LSD 300 🔋 ',
                             farm: '',
                             promoEligible: false,
                             type: 'Psychedelics',
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 {
                     id: 'DMT',
-                    name: 'DMT ',
+                    name: 'DMT 🔋 ',
                     image: 'ImgSousPsy/SousDmt.png', 
                     badgeText: '0 produits',
                     // clickable: false, 
@@ -330,22 +330,32 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 {
                     id: 'Shrooms',
-                    name: 'Shrooms',
+                    name: 'Shrooms 🔋',
                     image: 'ImgSousPsy/SousShrooms.png', 
                     badgeText: '0 produits',
                     // clickable: false, 
                     products: [
 
                     ]
-                } 
+                },
+                {
+                    id: '2CB',
+                    name: '2CB 🔋',
+                    image: 'ImgSousPsy/Sous2cb.png', 
+                    badgeText: '0 produits',
+                    // clickable: false, 
+                    products: [
+
+                    ]
+                }  
             ]
         },
         {
             id: 'DISSO',
-            name: ' ⭐ Dissociatives',
+            name: ' 😶‍🌫️ Dissociatives',
             farm: '',
             type: 'DISSO',
-            quality: ' ⭐ Dissociatives',
+            quality: ' 😶‍🌫️ Dissociatives',
             image: 'CategDisso.png', // Image de la catégorie
 
             farms: [
@@ -439,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'DrySift',
                             flag: '🇺🇸',
                             name: '🥵 Dry Sift 🥵',
-                            farm: '❄️ Frosty hash ❄️',
+                            farm: '',
                             promoEligible: true,
                             type: 'Hash',
                             image: '',
@@ -668,10 +678,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'OPIO',
-            name: ' ⭐ Opioids',
+            name: ' 💎 Opioids',
             farm: '',
             type: 'OPIO',
-            quality: ' ⭐ Opioids',
+            quality: ' 💎 Opioids',
             image: 'CategOpio.png', // Image de la catégorie
 
             farms: [
@@ -688,10 +698,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'SEUAL',
-            name: ' ⭐ Sexual Medications',
+            name: '🔞 Sexual Medications',
             farm: '',
             type: 'SEUAL',
-            quality: ' ⭐ Sexual Medications',
+            quality: '🔞 Sexual Medications',
             image: 'CategSeual.png', // Image de la catégorie
 
             farms: [
@@ -1223,7 +1233,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const productFarms = allNestedProducts.map(p => p.farm);
         const farms = ['all', ...new Set(productFarms)];
 
-        qualityFilter.innerHTML = qualities.map(q => `<option value="${q}">${q === 'all' ? 'ALL/SEARCH/TYPE' : q}</option>`).join('');
+        qualityFilter.innerHTML = qualities.map(q => `<option value="${q}">${q === 'all' ? '📝 - CATEGORIES' : q}</option>`).join('');
         farmFilter.innerHTML = farms.map(farm => `<option value="${farm}">${farm === 'all' ? '👨‍🌾  -  Les farms' : farm}</option>`).join('');
 
         searchFilter.addEventListener('input', (e) => {
