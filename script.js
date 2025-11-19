@@ -359,15 +359,33 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDisso.png', // Image de la catégorie
 
             farms: [
-              /* {
-                    id: 'WIZARDTREES', // J'ai inventé un ID de farm
-                    name: 'Wizard trees 🔮',
-                    image: 'Wizard4.png', // Mets une image de farm si tu veux
+              {
+                    id: 'KETASUGAR', // J'ai inventé un ID de farm
+                    name: 'Ketamin Sugar ',
+                    image: 'ImgSousDisso/SousSugar1.png', // Mets une image de farm si tu veux
                     badgeText: '2 produits',
                     products: [
                         
                     ]
-                } */
+                },
+                {
+                    id: 'KETANEEDLE', // J'ai inventé un ID de farm
+                    name: 'Ketamin Needle ',
+                    image: 'ImgSousDisso/SousNeedle.png', // Mets une image de farm si tu veux
+                    badgeText: '2 produits',
+                    products: [
+                        
+                    ]
+                },
+                {
+                    id: 'KETAROCKS', // J'ai inventé un ID de farm
+                    name: 'Ketamin Rocks ',
+                    image: 'ImgSousDisso/SousRocks.png', // Mets une image de farm si tu veux
+                    badgeText: '2 produits',
+                    products: [
+                        
+                    ]
+                },
             ]
         },
         {
@@ -389,7 +407,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'IceOLator',
                             flag: '🇺🇸',
                             name: '❄️ Ice-O-Lator ❄️',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Hash',
                             image: '',
@@ -404,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'BubbleHash',
                             flag: '🇺🇸',
                             name: '🫧 Bubble Hash 🫧',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Hash',
                             image: '',
@@ -464,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Semi-Dry',
                             flag: '',
                             name: '🥶 Semi-Dry 🥶',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Hash',
                             image: '',
@@ -479,7 +497,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Lamousse',
                             flag: '🇺🇸',
                             name: '🧽 LaMousse 🧽',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Hash',
                             image: '',
@@ -502,7 +520,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'IceOLator',
                             flag: '🇺🇸',
                             name: 'Branded Cali',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
                             image: '',
@@ -517,7 +535,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'BubbleHash',
                             flag: '🇺🇸',
                             name: ' Exoticz ',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
                             image: '',
@@ -600,7 +618,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'AmnesiaHaze',
                             flag: '🇺🇸',
                             name: ' Amnesia Haze ',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
                             image: '',
@@ -615,7 +633,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'LemonHaze',
                             flag: '🇺🇸',
                             name: 'Lemon Haze ',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Weed',
                             image: '',
@@ -638,7 +656,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'IceOLator',
                             flag: '🇺🇸',
                             name: '500–600 mg (THC)',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Cake',
                             image: '',
@@ -661,7 +679,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: '1000',
                             flag: '🇺🇸',
                             name: '1000 mg',
-                            farm: 'FARM',
+                            farm: '',
                             promoEligible: true,
                             type: 'Vape',
                             image: '',
@@ -683,17 +701,87 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'OPIO',
             quality: ' 💎 Opioids',
             image: 'CategOpio.png', // Image de la catégorie
+            directToProducts: true,
 
             farms: [
-               /* {
-                    id: 'WIZARDTREES', // J'ai inventé un ID de farm
-                    name: 'Wizard trees 🔮',
-                    image: 'Wizard4.png', // Mets une image de farm si tu veux
-                    badgeText: '2 produits',
+                {
+                    // Farm par défaut pour la redirection
+                    id: 'OPIO_DEFAULT',
+                    name: '𝐎pioi𝐃 💥',
                     products: [
-                        
+                        {
+                            id: 'Trama',
+                            flag: '🇺🇸',
+                            name: 'TRAMADOL',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: '50mg',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },   {
+                            id: 'Code',
+                            flag: '🇺🇸',
+                            name: 'Codeine phosphate',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: ' 20 mg ',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },   {
+                            id: 'Oxcy',
+                            flag: '🇺🇸',
+                            name: 'OXYCODONE',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: '5 - 80 mg',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },   {
+                            id: 'Metha',
+                            flag: '🇺🇸',
+                            name: 'METHADONE',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: ' 5 mg ',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },   {
+                            id: 'Fanta',
+                            flag: '🇺🇸',
+                            name: 'FANTANYL',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: '12 - 100 µg',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }
                     ]
-                } */
+                }
             ]
         },
         {
@@ -703,17 +791,104 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'SEUAL',
             quality: '🔞 Sexual Medications',
             image: 'CategSeual.png', // Image de la catégorie
+            directToProducts: true,
 
             farms: [
-               /* {
-                    id: 'WIZARDTREES', // J'ai inventé un ID de farm
-                    name: 'Wizard trees 🔮',
-                    image: 'Wizard4.png', // Mets une image de farm si tu veux
-                    badgeText: '2 produits',
+                {
+                    // Farm par défaut pour la redirection
+                    id: 'SEUAL_DEFAULT',
+                    name: ' 𝟙𝟠₊ Medication 🥵',
                     products: [
+
+                        {
+                            id: 'KamaG',
+                            flag: '🇺🇸',
+                            name: 'Kamagra Green 🧩',
+                            farm: '',
+                            promoEligible: true,
+                            type: '𝟙𝟠₊ Medication',
+                            image: '',
+                            video: '',
+                            description: ' 100 Ⓜ️𝐆 ',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },   
+                        {
+                            id: 'KamaL',
+                            flag: '🇺🇸',
+                            name: 'Kamagra Lady 💃',
+                            farm: '',
+                            promoEligible: true,
+                            type: '𝟙𝟠₊ Medication',
+                            image: '',
+                            video: '',
+                            description: ' 100 Ⓜ️𝐆 ',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },{
+                            id: 'Cen',
+                            flag: '🇺🇸',
+                            name: 'Cenforce 💯',
+                            farm: '',
+                            promoEligible: true,
+                            type: '𝟙𝟠₊ Medication',
+                            image: '',
+                            video: '',
+                            description: ' 200 Ⓜ️𝐆 ',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },{
+                            id: 'Vida',
+                            flag: '🇺🇸',
+                            name: 'Vidalista 📃',
+                            farm: '',
+                            promoEligible: true,
+                            type: '𝟙𝟠₊ Medication',
+                            image: '',
+                            video: '',
+                            description: ' 60/80 Ⓜ️𝐆 ',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },{
+                            id: 'Cobra',
+                            flag: '🇺🇸',
+                            name: 'Cobra 🐍',
+                            farm: '',
+                            promoEligible: true,
+                            type: '𝟙𝟠₊ Medication',
+                            image: '',
+                            video: '',
+                            description: ' 100 Ⓜ️𝐆 ',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },{
+                            id: 'KamaO',
+                            flag: '🇺🇸',
+                            name: 'Kamagra OralJelly 🍭',
+                            farm: '',
+                            promoEligible: true,
+                            type: '𝟙𝟠₊ Medication',
+                            image: '',
+                            video: '',
+                            description: ' 100 Ⓜ️𝐆 ',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
                         
                     ]
-                } */
+                } 
             ]
         }
     ];
@@ -864,14 +1039,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // --- AJOUT BOUTON RETOUR (vers Farms) ---
             const category = appData.find(c => c.id === currentCategoryId);
-            const farm = category.farms.find(f => f.id === currentFarmId);
-            const backButton = document.createElement('button');
+            
+            let backButton;
+
+            if (category.directToProducts) {
+                // Retourne directement aux catégories
+                backButton = document.createElement('button');
+                backButton.className = 'back-to-categories-btn'; 
+                backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
+            } else {
+                // Retourne à la vue "farms" (code original)
+                const farm = category.farms.find(f => f.id === currentFarmId);
+                backButton = document.createElement('button');
+                backButton.className = 'back-to-farms-btn'; 
+                backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>  ${farm.name}`;
+            }
+
+/*             const farm = category.farms.find(f => f.id === currentFarmId);
             backButton.className = 'back-to-farms-btn'; // CLASSE IMPORTANTE
             backButton.innerHTML = `<svg width="24"
              height="24"
               viewBox="0 0 24 24"
               ><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>  ${farm.name}`;
-            backButton.style.cssText = `background: var(--tertiary-bg-color); 
+ */            backButton.style.cssText = `background: var(--tertiary-bg-color); 
             border: none; color: white; padding: 10px 15px; 
             border-radius: 10px; font-size: 1.1rem; 
             font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh;    font-family: Copperplate;
@@ -1234,7 +1424,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const farms = ['all', ...new Set(productFarms)];
 
         qualityFilter.innerHTML = qualities.map(q => `<option value="${q}">${q === 'all' ? '📝 - CATEGORIES' : q}</option>`).join('');
-        farmFilter.innerHTML = farms.map(farm => `<option value="${farm}">${farm === 'all' ? '👨‍🌾  -  Les farms' : farm}</option>`).join('');
+        farmFilter.innerHTML = farms.map(farm => `<option value="${farm}">${farm === 'all' ? '👨‍🌾  -  FARM' : farm}</option>`).join('');
 
         searchFilter.addEventListener('input', (e) => {
             currentFilters.searchTerm = e.target.value;
@@ -1441,8 +1631,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.addEventListener('click', function (e) {
         const target = e.target;
 
-        // --- BLOC DE LOGIQUE POUR #copy-order-btn SUPPRIMÉ ---
-        // On n'a plus qu'un seul bouton de confirmation
+       
 
         // Gère l'accordéon sur la page contact
         const accordionHeader = target.closest('.accordion-header');
@@ -1461,17 +1650,30 @@ document.addEventListener('DOMContentLoaded', function () {
             return; // On arrête là pour ne pas déclencher d'autres clics
         }
 
-        // 1. Clic sur une carte CATÉGORIE
-        const categoryCard = target.closest('.category-card');
-        if (categoryCard) {
-            currentView = 'farms'; // On va à la vue "farms"
-            currentCategoryId = categoryCard.dataset.categoryId;
-            // On reset les filtres
-            currentFilters.searchTerm = '';
-            document.getElementById('search-filter').value = '';
-            renderHomePage();
-            return;
-        }
+       // 1. Clic sur une carte CATÉGORIE
+       const categoryCard = target.closest('.category-card');
+       if (categoryCard) {
+           currentCategoryId = categoryCard.dataset.categoryId;
+           const category = appData.find(c => c.id === currentCategoryId);
+           
+           if (category && category.directToProducts) {
+               // NOUVEAU: Si la catégorie est directe, on va à la vue "products"
+               currentView = 'products';
+               // On utilise l'ID de la catégorie comme ID de farm "par défaut"
+               currentFarmId = `${currentCategoryId}_DEFAULT`; 
+
+           } else {
+               // ANCIEN: La catégorie a des sous-catégories/farms
+               currentView = 'farms';
+               currentFarmId = null;
+           }
+
+           // On reset les filtres
+           currentFilters.searchTerm = '';
+           document.getElementById('search-filter').value = '';
+           renderHomePage();
+           return;
+       }
 
         // 2. NOUVEAU : Clic sur une carte FARM
         const farmCard = target.closest('.farm-card');
@@ -1513,8 +1715,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // 5. NOUVEAU : Clic sur le bouton "Retour" (vers Farms)
         if (target.closest('.back-to-farms-btn')) {
-            currentView = 'farms';
-            currentFarmId = null;
+            const category = appData.find(c => c.id === currentCategoryId);
+
+            if (category && category.directToProducts) {
+                 // Si c'est un produit direct, le bouton "retour" renvoie à la vue 'categories'
+                currentView = 'categories';
+                currentCategoryId = null; // On annule la sélection de catégorie
+            } else {
+                 // Sinon, on retourne à la vue des farms
+                currentView = 'farms';
+                currentFarmId = null;
+            }
+
             currentFilters.searchTerm = '';
             document.getElementById('search-filter').value = '';
             renderHomePage();
