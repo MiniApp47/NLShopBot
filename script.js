@@ -124,32 +124,133 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'DEPRESS',
             quality: ' 🌒 Depressants',
             image: 'CategDepre.png', // Image de la catégorie
+            directToProducts: true,
 
             farms: [
-              {
-                    id: 'GHB', // J'ai inventé un ID de farm
-                    name: 'GHB 🦠',
-                    image: 'ImgSousDepress/SousGhb.png', // Mets une image de farm si tu veux
-                    badgeText: '2 produits',
+                {
+                    // Farm par défaut pour la redirection
+                    id: 'DEPRESS_DEFAULT',
+                    name: 'Depressants 🌒',
                     products: [
+
                         {
-                            id: 'GHB',
+                            id: 'XA',
                             flag: '🇺🇸',
-                            name: 'GHB 🦠 ',
+                            name: '✘ana✘ 💊',
                             farm: '',
-                            promoEligible: true,
+                            promoEligible: true, 
                             type: 'Depressants',
                             image: '',
                             video: '',
-                            description: '',
+                            description: '1/2 Ⓜ️𝐆',
                             tarifs: [
                                 { weight: '1g', price: 80.00 },
                                 { weight: '2g', price: 150.00 },
                             ]
-                        }
+                        },
+                        {
+                            id: 'Oxa',
+                            flag: '🇺🇸',
+                            name: 'Oxazepam 💊',
+                            farm: '',
+                            promoEligible: true, 
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '1/2 Ⓜ️𝐆',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'Clone',
+                            flag: '🇺🇸',
+                            name: 'Clonazepam 💊',
+                            farm: '',
+                            promoEligible: true, 
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '2 Ⓜ️𝐆',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }, {
+                            id: 'Diaz',
+                            flag: '🇺🇸',
+                            name: 'Diazepam 💊',
+                            farm: '',
+                            promoEligible: true, 
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '10 Ⓜ️𝐆',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }, {
+                            id: 'Lora',
+                            flag: '🇺🇸',
+                            name: 'Lorazepam 💊',
+                            farm: '',
+                            promoEligible: true, 
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '2.5 Ⓜ️𝐆',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }, {
+                            id: 'Tema',
+                            flag: '🇺🇸',
+                            name: 'Temazepam 💊',
+                            farm: '',
+                            promoEligible: true, 
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '10/20 Ⓜ️𝐆',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }, {
+                            id: 'Broma',
+                            flag: '🇺🇸',
+                            name: 'Bromazepam 💊',
+                            farm: '',
+                            promoEligible: true, 
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '6 Ⓜ️𝐆',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        }, {
+                            id: 'ZOLPI',
+                            flag: '🇺🇸',
+                            name: 'Zolpidem 💊',
+                            farm: '',
+                            promoEligible: true, 
+                            type: 'Depressants',
+                            image: '',
+                            video: '',
+                            description: '10 Ⓜ️𝐆',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
                     ]
-                },
-                {
+                }
+                /* {
                     id: 'GBL', // J'ai inventé un ID de farm
                     name: 'GBL 🦠',
                     image: 'ImgSousDepress/SousGbl.png', // Mets une image de farm si tu veux
@@ -263,7 +364,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         }
                     ]
-                },
+                }, */
             ]
         },
          // --- Catégorie 2: V.V.S TANGER ---
@@ -779,7 +880,67 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 80.00 },
                                 { weight: '2g', price: 150.00 },
                             ]
-                        }
+                        },
+                        {
+                            id: 'hero',
+                            flag: '🇺🇸',
+                            name: 'Heroin',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'lean',
+                            flag: '🇺🇸',
+                            name: 'Lean 🥤',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'GHB',
+                            flag: '🇺🇸',
+                            name: 'GHB ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'GBL',
+                            flag: '🇺🇸',
+                            name: 'GBL ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Opioid',
+                            image: '',
+                            video: '',
+                            description: '',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
                     ]
                 }
             ]
