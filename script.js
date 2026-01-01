@@ -796,7 +796,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ${descriptionHTML} 
         ${optionsHTML} 
         <h4 class="tarifs-title">💰 Tarifs disponibles :</h4>
-        <div id="tarifs-list-container">
+        <div id="tarifs-grid-container">
             ${tarifsHTML}
         </div>
     `;

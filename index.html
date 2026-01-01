@@ -455,7 +455,7 @@
             align-items: center;
             height: 6vh;
             text-align: center;
-            font-family: cursive;
+            font-family: Bookman, URW Bookman L, serif;
             font-size: 20px;
         }
 
@@ -550,26 +550,17 @@
             font-weight: 500;
         }
 
-        .tarif-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: var(--secondary-bg-color);
-            padding: 15px;
-            border-radius: 10px;
-            margin-top: 10px;
-        }
-
         .add-to-cart-btn {
-            background: #a05325;
-            border: 1px solid white;
-            border-radius: 8px;
-            color: white;
-            width: 35px;
-            height: 35px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
+    background: #a05325;
+    border: 2px solid #c6aa29;
+    border-radius: 8px;
+    color: black;
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
         }
 
         /* Page Panier & Confirmation */
@@ -754,11 +745,59 @@
             padding-top: 20px;
         }
 
+        #tarifs-grid-container {
+            display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+}
+
+.box-tarif {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    font-family: Impact, fantasy;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#page-product .tarifs-grid-container .tarif-item {
+    width: calc(50% - 5px);
+    margin-top: 0;
+    box-sizing: border-box;
+    height: 20vh;
+    min-height: 4vh;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.box-tarif .tarif-wieght {
+    border-bottom: 2px solid #38310b;
+    width: 80%;
+    text-align: center;
+    /* margin-bottom: 1vh; */
+    height: 3.5vh;
+    padding: 1vh;
+}
+
+.box-tarif .tarif-price {
+    border-bottom: 2px solid #594b0e;
+    width: 80%;
+    text-align: center;
+    /* margin-bottom: 1vh; */
+    height: 3.5vh;
+    margin-top: 1vh;
+    padding: 1vh;
+}
 
         /* --- AJOUTE CE STYLE POUR LA DESCRIPTION --- */
         .product-description {
             font-size: 0.95rem;
-            color: #ff0000;
+            color: #d9c653;
             margin-top: 15px;
             margin-bottom: 20px;
             line-height: 1.4;
@@ -771,14 +810,17 @@
 
         /* On retire le fond des items de tarif car la carte s'en charge */
         .tarif-item {
-            padding: 10px 0;
             display: flex;
-            justify-content: center;
-            border-radius: 20px;
-            background: linear-gradient(#ff000087, #ff390054);
-            border: 2px solid white;
-            width: 90%;
-            height: 4vh;
+            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background: linear-gradient(45deg, black, #c6aa29);
+    color: black;
+    border: 2px solid white;
+    width: 80%;
+        padding: 1vh;
+
         }
 
         /* --- NOUVEAU STYLE POUR LA NOTIFICATION --- */
@@ -839,13 +881,12 @@
 
 
 
-        .box-tarif {
+      /*   .box-tarif {
             display: flex;
             font-size: 30px;
             justify-content: space-around;
-            width: 80%;
             font-family: Impact, fantasy;
-        }
+        } */
 
         /* --- NOUVEAU STYLE POUR LA PAGE INFO --- */
         #page-info .page-content {
@@ -1415,10 +1456,10 @@
         }
 
         .add-to-cart-btn:not(:disabled) {
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            background-color: #34c759;
-            /* Vert validation */
-        }
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #eed45a;
+}
+
 
         .add-to-cart-btn:not(:disabled):active {
             transform: scale(0.95);
