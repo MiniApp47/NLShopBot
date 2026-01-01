@@ -1356,6 +1356,56 @@
             font-weight: bold;
         }
 
+                /* FROZEN SIFT */
+                .opt-cereal-milk { background: linear-gradient(135deg, #fdfbfb, #ebedee); border: 1px solid #f6e58d; box-shadow: 0 0 10px #f6e58d; }
+        .opt-cereal-milk .add-to-cart-btn { color: #5d4037; background-color: #f6e58d; font-weight: bold; }
+        .opt-cereal-milk .tarif-wieght, .opt-cereal-milk .tarif-price { color: #5d4037 !important; }
+        .opt-moonbow { background: linear-gradient(135deg, #240b36, #c31432); border: 1px solid #fff; box-shadow: 0 0 10px #cc2b5e; }
+        .opt-chocolato { background: linear-gradient(135deg, #3e2723, #5d4037); border: 1px solid #8d6e63; box-shadow: 0 0 10px #d7ccc8; }
+        .opt-chocolato .add-to-cart-btn { color: #3e2723; background-color: #d7ccc8; font-weight: bold; }
+        .opt-sunset-runtz { background: linear-gradient(135deg, #ff9966, #ff5e62); border: 1px solid #fff; box-shadow: 0 0 10px #ff9966; }
+
+                /* MIDSHELF USA */
+                .opt-purple-scotty { background: linear-gradient(135deg, #4b0082, #000000); box-shadow: 0 0 10px #8a2be2; border: 1px solid #8a2be2; }
+        .opt-purple-scotty .add-to-cart-btn { color: #fff; background-color: #8a2be2; border-color: #fff; }
+
+        .opt-white-peach { background: linear-gradient(135deg, #ffecd2, #fcb69f); box-shadow: 0 0 10px #ff9a9e; border: 1px solid #fff; }
+        .opt-white-peach .add-to-cart-btn { color: #d35400; background-color: #fff; border-color: #d35400; font-weight: bold; }
+        .opt-white-peach .tarif-wieght, .opt-white-peach .tarif-price { color: #d35400 !important; }
+
+        .opt-cotton-candy { background: linear-gradient(135deg, #ff9a9e, #a18cd1); box-shadow: 0 0 10px #fbc2eb; border: 1px solid #fff; }
+        .opt-cotton-candy .add-to-cart-btn { color: #fff; background-color: #ff6b6b; border-color: #fff; }
+
+        .opt-candy-rush { background: linear-gradient(135deg, #ff0844, #ffb199); box-shadow: 0 0 10px #ff0844; border: 1px solid #fff; }
+        .opt-candy-rush .add-to-cart-btn { color: #fff; background-color: #d90429; border-color: #fff; font-weight: bold; }
+
+          /* 🍑 PEACH ZKITTLES (Pêche / Rose) */
+          .opt-peach-zkittles { background: linear-gradient(135deg, #ff9a9e, #fad0c4); border: 1px solid #ff9a9e; box-shadow: 0 0 10px #fad0c4; }
+        .opt-peach-zkittles .add-to-cart-btn { color: #d35400; background-color: #fad0c4; font-weight: bold; border-color: #d35400; }
+        .opt-peach-zkittles .tarif-wieght, .opt-peach-zkittles .tarif-price { color: #d35400 !important; }
+
+        /* 🇺🇸 OBAMA RUNTZ (Violet Présidentiel / Bleu Nuit) */
+        .opt-obama-runtz { background: linear-gradient(135deg, #4b0082, #1e3c72); border: 1px solid #fff; box-shadow: 0 0 10px #4b0082; }
+        .opt-obama-runtz .add-to-cart-btn { color: #fff; background-color: #4b0082; border-color: #fff; }
+
+        /* 🥣 FRUIT LOOPS (Multicolore Céréales / Rouge & Jaune) */
+        .opt-fruit-loops { background: linear-gradient(135deg, #ff416c, #ff4b2b); border: 1px solid #f9d423; box-shadow: 0 0 10px #f9d423; }
+        .opt-fruit-loops .add-to-cart-btn { color: #fff; background-color: #f9d423; font-weight: bold; text-shadow: 1px 1px 2px black; }
+
+        /* 🌌 GALACTIC WARHEADZ (Vert Acide / Violet) */
+        .opt-galactic-warheadz { background: linear-gradient(135deg, #c2e59c, #64b3f4); border: 1px solid #a8ff78; box-shadow: 0 0 10px #a8ff78; }
+        .opt-galactic-warheadz .add-to-cart-btn { color: #1a1a1a; background-color: #a8ff78; font-weight: bold; }
+        .opt-galactic-warheadz .tarif-wieght, .opt-galactic-warheadz .tarif-price { color: #1a1a1a !important; }
+
+        /* 🍦 BLACK ICE GELATO (Noir Glacé / Bleu givré) */
+        .opt-black-ice { background: linear-gradient(135deg, #000000, #434343); border: 1px solid #00c6ff; box-shadow: 0 0 10px #00c6ff; }
+        .opt-black-ice .add-to-cart-btn { color: #000; background-color: #00c6ff; font-weight: bold; }
+
+        /* 🍬 ZKITTLE SMACKERZ (Arc-en-ciel bonbon) */
+        .opt-zkittle-smackerz { background: linear-gradient(135deg, #ee9ca7, #ffdde1); border: 1px solid #ff512f; box-shadow: 0 0 10px #ff512f; }
+        .opt-zkittle-smackerz .add-to-cart-btn { color: #fff; background-color: #ff512f; border-color: #fff; }
+        .opt-zkittle-smackerz .tarif-wieght, .opt-zkittle-smackerz .tarif-price { color: #d35400 !important; }
+
         /* Style pour les boutons "Ajouter au panier" quand ils sont désactivés */
         .add-to-cart-btn:disabled {
             opacity: 0.5;
@@ -1372,6 +1422,64 @@
 
         .add-to-cart-btn:not(:disabled):active {
             transform: scale(0.95);
+        }
+
+         
+        .product-gallery-wrapper {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+            width: 100%;
+            /* Pour cacher la barre de défilement sur mobile */
+            -webkit-overflow-scrolling: touch; 
+            scrollbar-width: none; /* Firefox */
+        }
+        
+        .product-gallery-wrapper::-webkit-scrollbar { 
+            display: none; /* Chrome/Safari */
+        }
+
+        .gallery-item {
+            flex: 0 0 100%; /* Prend toute la largeur */
+            scroll-snap-align: center;
+            height: 45vh; /* Hauteur ajustée pour bien voir le produit */
+            border-radius: 15px;
+            overflow: hidden;
+            background: #000;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .gallery-item img, 
+        .gallery-item video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Remplit bien la case sans déformer */
+            display: block;
+        }
+
+        .gallery-counter {
+            text-align: center;
+            color: var(--hint-color);
+            font-size: 0.8rem;
+            margin-top: -5px;
+            margin-bottom: 15px;
+            font-style: italic;
+            animation: bounceRight 2s infinite;
+        }
+
+        @keyframes bounceRight { 
+            0%, 100% { transform: translateX(0); } 
+            50% { transform: translateX(5px); } 
+        }
+
+        /* Ajustement du conteneur détails pour qu'il colle bien au carrousel */
+        #page-product .product-details {
+            margin-top: 0 !important; /* On colle au carrousel */
+            padding-top: 10px !important;
         }
     </style>
 </head>

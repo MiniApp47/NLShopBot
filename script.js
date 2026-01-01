@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- CONFIGURATION DES LIENS DE CONTACT ---
     const contactLinks = [
-        { name: 'WhatsApp', url: 'https://wa.me/xxxxxxxxxx', icon: '#icon-whatsapp', id: 'whatsapp' ,className: 'whatsapp', text: "WhatsApp"},
-        { name: 'Instagram', url: 'https://www.instagram.com/plugsbot?igsh=MTYzamtyZ2JpNHJpOQ%3D%3D&utm_source=qr', className: 'instagram', text: "Instagram" ,icon: '#icon-instagram', id: 'instagram' },
-        { name: 'Snapchat', url: 'https://snapchat.com/add/user', icon: '#icon-snapchat', id: 'snapchat', className: 'snapchat' , text: "Snapchat"},
-        { name: 'Telegram', url: 'https://t.me/PlugsBotOfficielBot', icon: '#icon-telegram', id: 'telegram',className: 'telegram', text: "Telegram" },
-        { name: 'Potato', url: 'https://m.potato.im', icon: '#icon-potato', id: 'potato', className: 'potato', text: "Potato"}
-        ];
+        { name: 'WhatsApp', url: 'https://wa.me/xxxxxxxxxx', icon: '#icon-whatsapp', id: 'whatsapp', className: 'whatsapp', text: "WhatsApp" },
+        { name: 'Instagram', url: 'https://www.instagram.com/plugsbot?igsh=MTYzamtyZ2JpNHJpOQ%3D%3D&utm_source=qr', className: 'instagram', text: "Instagram", icon: '#icon-instagram', id: 'instagram' },
+        { name: 'Snapchat', url: 'https://snapchat.com/add/user', icon: '#icon-snapchat', id: 'snapchat', className: 'snapchat', text: "Snapchat" },
+        { name: 'Telegram', url: 'https://t.me/PlugsBotOfficielBot', icon: '#icon-telegram', id: 'telegram', className: 'telegram', text: "Telegram" },
+        { name: 'Potato', url: 'https://m.potato.im', icon: '#icon-potato', id: 'potato', className: 'potato', text: "Potato" }
+    ];
 
     // --- DONNÉES DE L'APPLICATION ---
     const appData = [
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             quality: ' 🏋️ Stimulant',
             image: 'CategStim.png',
             farms: [
-                 {
+                {
                     id: 'White',
                     name: 'White 💭 ',
                     image: 'SousWhite.png',
@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', function () {
             farm: '',
             type: 'DEPRESS',
             quality: ' 🌒 Depressants',
-            image: 'CategDepre.png', 
-            directToProducts: true, 
+            image: 'CategDepre.png',
+            directToProducts: true,
 
             farms: [
                 {
@@ -99,25 +99,25 @@ document.addEventListener('DOMContentLoaded', function () {
                     products: [
                         { id: 'XA', flag: '🇺🇸', name: '✘ana✘ 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '1/2 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
                         { id: 'Oxa', flag: '🇺🇸', name: 'Oxazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '1/2 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Clone', flag: '🇺🇸', name: 'Clonazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '2 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] }, 
-                        { id: 'Diaz', flag: '🇺🇸', name: 'Diazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '10 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] }, 
-                        { id: 'Lora', flag: '🇺🇸', name: 'Lorazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '2.5 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] }, 
-                        { id: 'Tema', flag: '🇺🇸', name: 'Temazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '10/20 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] }, 
-                        { id: 'Broma', flag: '🇺🇸', name: 'Bromazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '6 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] }, 
+                        { id: 'Clone', flag: '🇺🇸', name: 'Clonazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '2 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+                        { id: 'Diaz', flag: '🇺🇸', name: 'Diazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '10 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+                        { id: 'Lora', flag: '🇺🇸', name: 'Lorazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '2.5 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+                        { id: 'Tema', flag: '🇺🇸', name: 'Temazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '10/20 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+                        { id: 'Broma', flag: '🇺🇸', name: 'Bromazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '6 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
                         { id: 'ZOLPI', flag: '🇺🇸', name: 'Zolpidem 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '10 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
                     ]
                 }
             ]
         },
-         // --- Catégorie 3: PSYCHEDELICS ---
+        // --- Catégorie 3: PSYCHEDELICS ---
         {
             id: 'PSYCHEDELICS',
             name: '🍄 Psychedelics',
             farm: '',
             type: 'Psychedelics',
             quality: ' 🍄 Psychedelics',
-            image: 'CategPsy.png', 
-            directToProducts: true, 
+            image: 'CategPsy.png',
+            directToProducts: true,
             farms: [
                 {
                     id: 'PSYCHEDELICS_DEFAULT',
@@ -135,9 +135,9 @@ document.addEventListener('DOMContentLoaded', function () {
             farm: '',
             type: 'DISSO',
             quality: ' 😶‍🌫️ Dissociatives',
-            image: 'CategDisso.png', 
+            image: 'CategDisso.png',
             directToProducts: true,
-            farms: [ { id: 'DISSO_DEFAULT', name: 'Produits Dissociatifs', products: [] } ]
+            farms: [{ id: 'DISSO_DEFAULT', name: 'Produits Dissociatifs', products: [] }]
         },
         {
             id: 'CANNA',
@@ -145,13 +145,13 @@ document.addEventListener('DOMContentLoaded', function () {
             farm: '',
             type: 'CANNA',
             quality: ' 🧬 Thc Products',
-            image: 'CategCana.png', 
+            image: 'CategCana.png',
 
             farms: [
-             {
+                {
                     id: 'Hash',
                     name: 'Hash 🍫',
-                    image: 'ImgSousCanna/SousHash.png', 
+                    image: 'ImgSousCanna/SousHash.png',
                     badgeText: '5 produits',
                     products: [
                         // --- Westcoast Mousse (MODIFIÉ AVEC COULEURS) ---
@@ -159,10 +159,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'WestcoastMousse',
                             flag: '🇺🇸',
                             name: 'Westcoast Mousse',
-                            farm: 'Hash USA',
+                            farm: '🇺🇸 Hash USA 🇺🇸',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Product/ProductWest.jpg', 
+                            image: 'Product/ProductWest.jpg',
                             video: 'Video/VideoWest.mp4',
                             description: 'Qualité premium, extraction mousseuse.',
                             // 👇 ICI : On utilise des objets avec name et colorClass
@@ -180,10 +180,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'LAMousse',
                             flag: '🇺🇸',
                             name: 'L.A. MOUSSE',
-                            farm: 'Hash USA',
+                            farm: '🇺🇸 Hash USA 🇺🇸',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Product/ProductLA.jpg', 
+                            image: 'Product/ProductLA.jpg',
                             video: 'Video/VideoLA.mp4',
                             description: 'Le top de L.A.',
                             // 👇 LISTE COMPLÈTE AVEC COULEURS
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: "Mango Tango 🥭", colorClass: "opt-mango-tango" }
                             ],
                             tarifs: [
-                                { weight: '10g', price: 50.00 }, 
+                                { weight: '10g', price: 50.00 },
                                 { weight: '50g', price: 200.00 },
                             ]
                         },
@@ -209,11 +209,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Purple Cream',
                             flag: '🇺🇸',
                             name: '💜 Purple Cream 🍦',
-                            farm: 'Hash USA',
+                            farm: '🇺🇸 Hash USA 🇺🇸',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'Product/ProductCream.png',
-                            video: 'Video/VideoCream.mp4',
+                            videos: ['Video/VideoCream.mp4',
+                                'Video/VideoCream2.mp4'],
                             description: 'Premium Dry Sift ⚡',
                             tarifs: [
                                 { weight: '1g', price: 80.00 },
@@ -224,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Gold',
                             flag: '🇺🇸',
                             name: '🧈 Gold Crown by Exotix',
-                            farm: 'Hash USA',
+                            farm: '🇺🇸 Hash USA 🇺🇸',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'Product/ProductGold.jpeg',
@@ -239,15 +240,18 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Outta',
                             flag: '',
                             name: '👹 Outta Cali 👹',
-                            farm: 'Hash USA',
+                            farm: '🇺🇸 Hash USA 🇺🇸',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'Product/ProductOutta.jpg',
-                            video: 'Video/VideoOutta.mp4',
+                            videos: ['Video/VideoOutta.mp4',
+                                'Video/VideoOutta2.mp4',
+                                'Video/VideoOutta3.mp4'],
+
                             description: 'Bubble Hash Straight Outta Cali 🫧',
 
-                              // LES OPTIONS AVEC LEURS COULEURS
-                              options: [
+                            // LES OPTIONS AVEC LEURS COULEURS
+                            options: [
                                 { name: "Gush Mintz 🍃", colorClass: "opt-gush-mintz" }, // On réutilise le vert existant
                                 { name: "Oreoz Platz 🍪", colorClass: "opt-oreoz-platz" },
                                 { name: "Mac 1 🛸", colorClass: "opt-mac-1" }
@@ -259,45 +263,22 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
                         {
-                            id: 'DrySift',
+                            id: 'Frozen Sift 🧋',
                             flag: '🇺🇸',
-                            name: '🥵 Dry Sift 🥵',
-                            farm: '',
+                            name: 'Frozen Sift 🧋',
+                            farm: '🇺🇸 Branded USA 🇺🇸',
                             promoEligible: true,
                             type: 'Hash',
-                            image: '',
-                            video: '',
-                            description: '',
-                            tarifs: [
-                                { weight: '2g', price: 250.00 },
-                                { weight: '4g', price: 500.00 },
-                            ]
-                        },
-                        {
-                            id: 'Semi-Dry',
-                            flag: '',
-                            name: '🥶 Semi-Dry 🥶',
-                            farm: '',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: '',
-                            video: '',
-                            description: '',
-                            tarifs: [
-                                { weight: '2g', price: 250.00 },
-                                { weight: '4g', price: 500.00 },
-                            ]
-                        },
-                        {
-                            id: 'Lamousse',
-                            flag: '🇺🇸',
-                            name: '🧽 LaMousse 🧽',
-                            farm: '',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: '',
-                            video: '',
-                            description: '',
+                            image: 'Product/ProductFrozen.jpg',
+                            video: 'Video/VideoFrozen.mp4',
+                            description: 'Cali Plates Frozen \n\n Type: Premium Frozen Sift \n 70-130u Single Source',
+                            // OPTIONS AVEC COULEURS
+                            options: [
+                                { name: "Cereal Milk 🥣", colorClass: "opt-cereal-milk" },
+                                { name: "Moonbow 🌙", colorClass: "opt-moonbow" },
+                                { name: "Chocolato 🍫", colorClass: "opt-chocolato" },
+                                { name: "Sunset Runtz 🌅", colorClass: "opt-sunset-runtz" }
+                            ],
                             tarifs: [
                                 { weight: '2g', price: 250.00 },
                                 { weight: '4g', price: 500.00 },
@@ -309,22 +290,144 @@ document.addEventListener('DOMContentLoaded', function () {
                 {
                     id: 'WeedUsa',
                     name: 'Weed ( USA ) 🇺🇸',
-                    image: 'ImgSousCanna/SousWeedUsa.png', 
+                    image: 'ImgSousCanna/SousWeedUsa.png',
                     badgeText: '5 produits',
                     products: [
-                        { id: 'BrandedCali', flag: '🇺🇸', name: 'Branded Cali', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Exoticz', flag: '🇺🇸', name: ' Exoticz ', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+                        {
+                            id: 'Midshelf',
+                            flag: '🇺🇸',
+                            name: 'Midshelf',
+                            farm: '🇺🇸 Weed USA 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'Product/ProductMid.png',
+                            videos: ['Video/VideoScotty.mp4',
+                                'Video/VideoScotty2.mp4',
+                                'Video/VideoScotty3.mp4',
+                                'Video/VideoPeach.mp4',
+                                'Video/VideoCotton.mp4',
+                                'Video/VideoCandy.mp4',
+                                'Video/VideoMilk.mp4'],
+                            description: '',
+                            options: [
+                                { name: "Purple Scotty 🟣", colorClass: "opt-purple-scotty" },
+                                { name: "White Peach 🍑", colorClass: "opt-white-peach" },
+                                { name: "Cotton Candy Gelato 🍬", colorClass: "opt-cotton-candy" },
+                                { name: "Candy Rush 🍭", colorClass: "opt-candy-rush" },
+                                { name: "Cereal Milk 🥣", colorClass: "opt-cereal-milk" }
+                            ],
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 }]
+                        },
+                        {
+                            id: 'Topshelf',
+                            flag: '🇺🇸',
+                            name: 'Topshelf',
+                            farm: '🇺🇸 Weed USA 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'Product/ProductRuntz.png',
+                            videos: ['Video/VideoBlueberry.mp4',
+                                'Video/VideoRainbow.mp4',
+                                'Video/VideoBlackJelly.mp4',
+                                'Video/VideoFruit.mp4',
+                                'Video/VideoMango.mp4'],
+                            description: '',
+                            options: [
+                                { name: "Blueberry Jetfuel ⛽", colorClass: "opt-galactic-glue" },
+                                { name: "Rainbow Belts 🎖️", colorClass: "opt-sunset-runtz" },
+                                { name: "Black Jellybean 🍬", colorClass: "opt-cotton-candy" },
+                                { name: "Fruit Punch 🥊", colorClass: "opt-candy-rush" },
+                                { name: "Mango Rush 🥭", colorClass: "opt-white-peach" }
+                            ],
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 }
+                            ]
+                        },
+
+                        {
+                            id: 'Exoticz',
+                            flag: '🇺🇸',
+                            name: ' Exoticz ',
+                            farm: '🇺🇸 Weed USA 🇺🇸',
+                            promoEligible: true, 
+                            type: 'Weed', 
+                            image: 'Product/ProductExotic.png',
+                            videos: ['Video/VideoPeachZ.mp4',
+                                'Video/VideoObama.mp4',
+                                'Video/VideoLoops.mp4',
+                                'Video/VideoGalactic.mp4',
+                                'Video/VideoIceG.mp4',
+                                'Video/VideoSmack.mp4'],
+                            description: '',
+                            options: [
+                                { name: "Peach Zkittles 🍑", colorClass: "opt-peach-zkittles" },
+                                { name: "Obama Runtz 🇺🇸", colorClass: "opt-obama-runtz" },
+                                { name: "Fruit Loops 🥣", colorClass: "opt-fruit-loops" },
+                                { name: "Galactic WarHeadz 🌌", colorClass: "opt-galactic-warheadz" },
+                                { name: "Black Ice Gelato 🍦", colorClass: "opt-black-ice" },
+                                { name: "Zkittle Smackerz 🍬", colorClass: "opt-zkittle-smackerz" }
+                            ], 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                 { weight: '2g', price: 150.00 }
+                                ]
+                        },
+                        { 
+                        id: 'Branded USA', 
+                        flag: '🇺🇸', 
+                        name: 'Limelight x Black Magic 🧙🏼‍♂️', 
+                        farm: '🇺🇸 Branded USA 🇺🇸', 
+                        promoEligible: true, 
+                        type: 'Weed', 
+                        image: 'Product/ProductBrand.jpeg', 
+                        video: '', 
+                        description: 'Wizard Trees Blacklight Edition', 
+                        tarifs: [
+                            { weight: '2g', price: 250.00 },
+                            { weight: '4g', price: 500.00 }] 
+                        },
+
+
+
+                        /*   {
+                             id: 'Midshelf',
+                             flag: '🇺🇸', 
+                             name: 'Midshelf', 
+                             farm: '🇺🇸 Weed USA 🇺🇸', 
+                             promoEligible: true,
+                             type: 'Weed',
+                             image: 'Product/ProductRuntz.png',
+                             videos: ['Video/VideoBlueR.mp4',
+                             'Video/VideoBlueR2.mp4',
+                             'Video/VideoBlackR.mp4',
+                             'Video/VideoOrangeR.mp4'],
+                             description: '',
+                             options: [
+                                 { name: "Blue Runtz 💠", colorClass: "opt-galactic-glue" },
+                                 { name: "Black Runtz ♣️", colorClass: "opt-mac-1" },
+                                 { name: "Orange Runtz 🏵️", colorClass: "opt-sunset-runtz" },
+                             ],
+                             tarifs: [
+                                 { weight: '1g', price: 80.00 },
+                                 { weight: '2g', price: 150.00 }
+                             ]
+                         }, */
+
+/*                         { id: 'Exoticz', flag: '🇺🇸', name: ' Exoticz ', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
                         { id: 'Topshelf', flag: '🇺🇸', name: 'Topshelf', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '2g', price: 250.00 }, { weight: '4g', price: 500.00 }] },
                         { id: 'Midshelf', flag: '', name: 'Midshelf', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '2g', price: 250.00 }, { weight: '4g', price: 500.00 }] },
                         { id: 'Deps', flag: '🇺🇸', name: 'Deps', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '2g', price: 250.00 }, { weight: '4g', price: 500.00 }] },
                         { id: 'Lows', flag: '', name: 'Lows', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '2g', price: 250.00 }, { weight: '4g', price: 500.00 }] }
-                    ]
+ */                    ]
                 },
                 // ... WeedNl ...
                 {
                     id: 'WeedNl',
                     name: 'Weed ( NL ) 🇳🇱',
-                    image: 'ImgSousCanna/SousWeedNl.png', 
+                    image: 'ImgSousCanna/SousWeedNl.png',
                     badgeText: '5 produits',
                     products: [
                         { id: 'AmnesiaHaze', flag: '🇺🇸', name: ' Amnesia Haze ', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
@@ -334,21 +437,50 @@ document.addEventListener('DOMContentLoaded', function () {
                 // ... Edibles ...
                 {
                     id: 'Edibles',
-                    name: '🧁 Edibles 🧁',
-                    image: 'ImgSousCanna/SousEdibles.png', 
+                    name: '🍭 Edibles 🍭',
+                    image: 'ImgSousCanna/SousEdibles.png',
                     badgeText: '5 produits',
                     products: [
-                        { id: '500-600mg', flag: '🇺🇸', name: '500–600 mg (THC)', farm: '', promoEligible: true, type: 'Cake', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] }
+                        { id: '600mg', 
+                        flag: '🇺🇸', 
+                        name: '600 mg (THC)', 
+                        farm: '', 
+                        promoEligible: true, 
+                        type: 'Candy', 
+                        image: 'Product/Product600.jpeg', 
+                        videos: ['Video/Video61.mp4',
+                        'Video/Video62.mp4',
+                        'Video/Video63.mp4',
+                        'Video/Video64.mp4',
+                        'Video/Video65.mp4',
+                        'Video/Video66.mp4'], 
+                        description: 'Trolli Strawberry Puffs, Trolli Peachie, Trolli Apple, Trolli Sour Brite Octopus, Trolli Sour Brite Crawlers, Trolli Sour Brite Lips', 
+                        tarifs: [
+                            { weight: '1g', price: 80.00 },
+                            { weight: '2g', price: 150.00 }] 
+                        }
                     ]
                 },
                 // ... ThcVapes ...
                 {
                     id: 'ThcVapes',
                     name: ' 💨 Thc Vapes 💨',
-                    image: 'ImgSousCanna/SousThc.png', 
+                    image: 'ImgSousCanna/SousThc.png',
                     badgeText: '5 produits',
                     products: [
-                        { id: '1000', flag: '🇺🇸', name: '1000 mg', farm: '', promoEligible: true, type: 'Vape', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] }
+                        { id: '1000', 
+                        flag: '🇺🇸', 
+                        name: '1000 mg - THC Vapes USA', 
+                        farm: '', 
+                        promoEligible: true, 
+                        type: 'Vape', 
+                        image: 'Product/ProductVape.jpg', 
+                        video: 'Video/VideoVape1.mp4', 
+                        description: 'Lemon Cream Banana, Pink Runtz, Orange Runtz', 
+                        tarifs: [
+                            { weight: '1g', price: 80.00 }, 
+                            { weight: '2g', price: 150.00 }] 
+                        }
                     ]
                 }
             ]
@@ -360,7 +492,7 @@ document.addEventListener('DOMContentLoaded', function () {
             farm: '',
             type: 'OPIO',
             quality: ' 💎 Opioids',
-            image: 'CategOpio.png', 
+            image: 'CategOpio.png',
             directToProducts: true,
             farms: [
                 {
@@ -401,7 +533,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { id: 'Cobra', flag: '🇺🇸', name: 'Cobra 🐍', farm: '', promoEligible: true, type: '𝟙𝟠₊ Medication', image: '', video: '', description: ' 100 Ⓜ️𝐆 ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
                         { id: 'KamaO', flag: '🇺🇸', name: 'Kamagra OralJelly 🍭', farm: '', promoEligible: true, type: '𝟙𝟠₊ Medication', image: '', video: '', description: ' 100 Ⓜ️𝐆 ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
                     ]
-                } 
+                }
             ]
         }
     ];
@@ -409,14 +541,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- VARIABLES D'ÉTAT ---
     let cart = [];
     let currentFilters = { searchTerm: '', quality: 'all', farm: 'all' };
-    let currentView = 'categories'; 
-    let currentCategoryId = null; 
-    let currentFarmId = null; 
-    let appliedPromo = null; 
-    let paymentMethod = 'Espèce'; 
-    
+    let currentView = 'categories';
+    let currentCategoryId = null;
+    let currentFarmId = null;
+    let appliedPromo = null;
+    let paymentMethod = 'Espèce';
+
     // --- VARIABLES POUR LA SÉLECTION D'OPTION ---
-    let currentSelectedOption = null; 
+    let currentSelectedOption = null;
 
     const validPromoCodes = {
         "ACTUPLUG33": { type: 'fixed', value: 10, appliesTo: 'eligible' }
@@ -437,7 +569,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (product) return product;
             }
         }
-        return undefined; 
+        return undefined;
     }
 
     function showPage(pageId) {
@@ -445,7 +577,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const page = document.getElementById(pageId);
         if (page) page.classList.add('active');
         const homeNav = document.getElementById('nav-menu');
-        const infoNav = document.getElementById('nav-info'); 
+        const infoNav = document.getElementById('nav-info');
         const contactNav = document.getElementById('nav-contact');
         homeNav.classList.remove('active');
         infoNav.classList.remove('active');
@@ -466,36 +598,36 @@ document.addEventListener('DOMContentLoaded', function () {
             renderCategoryList();
             searchFilterWrapper.style.display = '';
             farmFilterWrapper.style.display = 'none';
-            qualityFilterWrapper.style.display = 'flex'; 
+            qualityFilterWrapper.style.display = 'flex';
             productListContainer.style.gridTemplateColumns = 'repeat(1, 1fr)';
         } else if (currentView === 'farms') {
             renderFarmList(currentCategoryId);
             searchFilterWrapper.style.display = 'none';
-            farmFilterWrapper.style.display = 'none'; 
+            farmFilterWrapper.style.display = 'none';
             qualityFilterWrapper.style.display = 'none';
-            productListContainer.style.gridTemplateColumns = 'repeat(1, 1fr)'; 
+            productListContainer.style.gridTemplateColumns = 'repeat(1, 1fr)';
             const category = appData.find(c => c.id === currentCategoryId);
             const backButton = document.createElement('button');
-            backButton.className = 'back-to-categories-btn'; 
+            backButton.className = 'back-to-categories-btn';
             backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
             backButton.style.cssText = `background: var(--tertiary-bg-color); border: none; color: white; padding: 10px 15px; border-radius: 10px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh;font-family: Copperplate;`;
             filterContainer.prepend(backButton);
         } else if (currentView === 'products') {
             renderProductList(currentCategoryId, currentFarmId);
             searchFilterWrapper.style.display = 'flex';
-            farmFilterWrapper.style.display = 'flex'; 
-            qualityFilterWrapper.style.display = 'none'; 
-            productListContainer.style.gridTemplateColumns = 'repeat(2, 1fr)'; 
+            farmFilterWrapper.style.display = 'flex';
+            qualityFilterWrapper.style.display = 'none';
+            productListContainer.style.gridTemplateColumns = 'repeat(2, 1fr)';
             const category = appData.find(c => c.id === currentCategoryId);
             let backButton;
             if (category.directToProducts) {
                 backButton = document.createElement('button');
-                backButton.className = 'back-to-categories-btn'; 
+                backButton.className = 'back-to-categories-btn';
                 backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
             } else {
                 const farm = category.farms.find(f => f.id === currentFarmId);
                 backButton = document.createElement('button');
-                backButton.className = 'back-to-farms-btn'; 
+                backButton.className = 'back-to-farms-btn';
                 backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>  ${farm.name}`;
             }
             backButton.style.cssText = `background: var(--tertiary-bg-color); border: none; color: white; padding: 10px 15px; border-radius: 10px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh;    font-family: Copperplate;`;
@@ -526,12 +658,12 @@ document.addEventListener('DOMContentLoaded', function () {
     function renderFarmList(categoryId) {
         const category = appData.find(c => c.id === categoryId);
         if (!category) return;
-        const farms = category.farms; 
+        const farms = category.farms;
         productListContainer.innerHTML = '';
         farms.forEach(farm => {
             const card = document.createElement('div');
-            card.className = 'farm-card'; 
-            card.dataset.farmId = farm.id; 
+            card.className = 'farm-card';
+            card.dataset.farmId = farm.id;
             if (farm.clickable === false) card.classList.add('unclickable');
             const productCount = farm.products.length;
             card.innerHTML = `<div class="card-badge">${productCount > 0 ? productCount + ' produit' + (productCount > 1 ? 's' : '') : farm.badgeText || ''}</div><img src="${farm.image}" alt="${farm.name}">`;
@@ -547,7 +679,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const filteredProducts = farm.products.filter(product => {
             const searchMatch = product.name.toLowerCase().includes(currentFilters.searchTerm.toLowerCase());
             const farmMatch = currentFilters.farm === 'all' || product.farm === currentFilters.farm;
-            return searchMatch && farmMatch; 
+            return searchMatch && farmMatch;
         });
         productListContainer.innerHTML = '';
         filteredProducts.forEach(product => {
@@ -562,74 +694,87 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 
-    // --- MODIFIÉ : renderProductPage ---
+    // --- MODIFIÉ : renderProductPage (VERSION CARROUSEL) ---
     function renderProductPage(productId) {
         const product = getProductById(productId);
         if (!product) return;
 
-        // Reset de la sélection actuelle
         currentSelectedOption = null;
-
-        const videoElement = document.querySelector('#page-product .product-video');
-        videoElement.src = product.video;
-        videoElement.poster = product.image;
 
         document.getElementById('product-page-title').innerText = product.name;
         const detailsContainer = document.getElementById('product-details-content');
 
-        // --- GESTION DES BOUTONS D'OPTIONS (Style Smockyclub + Couleurs) ---
+        // --- 1. GESTION DU CARROUSEL (IMAGES & VIDÉOS) ---
+        let galleryHTML = '';
+        let hasMedia = false;
+        let mediaItems = [];
+
+        // Récupération des images (soit tableau 'images', soit simple 'image')
+        if (product.images && product.images.length > 0) {
+            mediaItems = product.images.map(src => ({ type: 'image', src: src }));
+        } else if (product.image && product.image !== '') {
+            mediaItems.push({ type: 'image', src: product.image });
+        }
+
+        // Récupération des vidéos (soit tableau 'videos', soit simple 'video')
+        if (product.videos && product.videos.length > 0) {
+            product.videos.forEach(src => mediaItems.push({ type: 'video', src: src }));
+        } else if (product.video && product.video !== '') {
+            mediaItems.push({ type: 'video', src: product.video });
+        }
+
+        // Construction du HTML du carrousel
+        if (mediaItems.length > 0) {
+            hasMedia = true;
+            galleryHTML = mediaItems.map(item => {
+                if (item.type === 'image') {
+                    return `<div class="gallery-item"><img src="${item.src}" alt="${product.name}"></div>`;
+                } else {
+                    return `
+                <div class="gallery-item">
+                    <video controls playsinline poster="${product.image || ''}">
+                        <source src="${item.src}" type="video/mp4">
+                    </video>
+                </div>`;
+                }
+            }).join('');
+        }
+
+        // --- 2. OPTIONS (Boutons couleurs) ---
         let optionsHTML = '';
         if (product.options && product.options.length > 0) {
-            
-            // On vérifie si c'est un objet (nouveau système) ou une string (ancien système)
             const buttonsHTML = product.options.map(opt => {
                 const name = typeof opt === 'object' ? opt.name : opt;
-                // On stocke la classe couleur dans un attribut data-color-class
                 const colorClass = typeof opt === 'object' ? opt.colorClass : '';
-                
                 return `
-                <button class="option-btn" 
-                    data-value="${name}" 
-                    data-color-class="${colorClass}"
-                    style="
-                    /* Styles de base, la couleur viendra au clic */
-                    background-color: var(--tertiary-bg-color); 
-                    color: white; 
-                    border: 1px solid transparent; 
-                    border-radius: 8px; 
-                    padding: 10px 15px; 
-                    margin: 5px; 
-                    cursor: pointer; 
-                    font-size: 0.9rem;
-                    transition: all 0.2s ease;">
-                    ${name}
-                </button>
-            `;
+            <button class="option-btn" 
+                data-value="${name}" 
+                data-color-class="${colorClass}"
+                style="background-color: var(--tertiary-bg-color); color: white; border: 1px solid transparent; border-radius: 8px; padding: 10px 15px; margin: 5px; cursor: pointer; font-size: 0.9rem; transition: all 0.2s ease;">
+                ${name}
+            </button>`;
             }).join('');
 
             optionsHTML = `
-            <div class="product-options-container" style="margin-top: 15px; width: 100%; text-align: center;">
-                <label style="color: var(--hint-color); display: block; margin-bottom: 10px; font-weight: 500;">Variété :</label>
-                <div class="options-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 5px;">
-                    ${buttonsHTML}
-                </div>
+        <div class="product-options-container" style="margin-top: 15px; width: 100%; text-align: center;">
+            <label style="color: var(--hint-color); display: block; margin-bottom: 10px; font-weight: 500;">Variété :</label>
+            <div class="options-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 5px;">
+                ${buttonsHTML}
             </div>
-            `;
+        </div>`;
         }
 
-        // --- GESTION DES TARIFS (Boutons d'ajout désactivés par défaut si options) ---
         let tarifsHTML = product.tarifs.map(tarif => `
-        <div class="tarif-item">
-            <div class="box-tarif">
-                <div class="tarif-wieght">${tarif.weight}</div>
-                <div class="tarif-price">${tarif.price.toFixed(2)}€</div>
-            </div>
-            <button class="add-to-cart-btn" data-product-id="${product.id}" data-weight="${tarif.weight}" data-price="${tarif.price}" 
-                ${(product.options && product.options.length > 0) ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}>
-                <svg width="20" height="20"><use href="#icon-cart"/></svg>
-            </button>
+    <div class="tarif-item">
+        <div class="box-tarif">
+            <div class="tarif-wieght">${tarif.weight}</div>
+            <div class="tarif-price">${tarif.price.toFixed(2)}€</div>
         </div>
-    `).join('');
+        <button class="add-to-cart-btn" data-product-id="${product.id}" data-weight="${tarif.weight}" data-price="${tarif.price}" 
+            ${(product.options && product.options.length > 0) ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}>
+            <svg width="20" height="20"><use href="#icon-cart"/></svg>
+        </button>
+    </div>`).join('');
 
         let descriptionHTML = '';
         if (product.description) {
@@ -637,7 +782,15 @@ document.addEventListener('DOMContentLoaded', function () {
             descriptionHTML = `<p class="product-description">${formattedDescription}</p>`;
         }
 
+        // Cache la vidéo statique de l'ancien code HTML si elle existe encore
+        const staticVideo = document.querySelector('#page-product .product-video');
+        if (staticVideo) staticVideo.style.display = 'none';
+
+        // --- 3. INJECTION DANS LA PAGE ---
         detailsContainer.innerHTML = `
+        ${hasMedia ? `<div class="product-gallery-wrapper">${galleryHTML}</div>` : ''}
+        ${hasMedia && mediaItems.length > 1 ? `<div class="gallery-counter">Swipe ➡️</div>` : ''}
+        
         <div class="name">${product.name}</div>
         <div class="farm">${product.farm}</div>
         ${descriptionHTML} 
@@ -701,7 +854,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             if (promo.type === 'percent') {
                 discount = (discountableAmount * promo.value) / 100;
-            } else { 
+            } else {
                 discount = promo.value;
             }
         }
@@ -733,7 +886,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             promoInputContainer.style.display = 'flex';
             promoAppliedContainer.style.display = 'none';
-            document.getElementById('promo-code-input').value = ''; 
+            document.getElementById('promo-code-input').value = '';
         }
 
         document.querySelectorAll('.payment-btn').forEach(btn => {
@@ -830,7 +983,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 quantity: 1,
                 unitPrice: price,
                 totalPrice: price,
-                option: selectedOption 
+                option: selectedOption
             });
         }
         renderCart();
@@ -866,11 +1019,11 @@ document.addEventListener('DOMContentLoaded', function () {
         message += "====================\n";
         message += "RESUME:\n";
         message += `- ${totalItems} article${totalItems > 1 ? 's' : ''} commande\n`;
-        message += `- Méthode de paiement: ${paymentMethod}\n`; 
+        message += `- Méthode de paiement: ${paymentMethod}\n`;
         message += "====================\n";
         message += `DETAIL DES ARTICLES:\n`;
         cart.forEach((item) => {
-            message += `\n- ${item.name}`; 
+            message += `\n- ${item.name}`;
             if (item.option) message += ` (${item.option})`;
             message += `\n  Quantite: ${item.quantity}x ${item.weight}`;
             message += `\n  Prix unitaire: ${item.unitPrice.toFixed(2)}e`;
@@ -878,8 +1031,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         message += `\n\n====================\n`;
         message += `\nSOUS-TOTAL: ${subTotal.toFixed(2)} EUR`;
-        if (discount > 0) message += `\nREDUCTION (${appliedPromo}): -${discount.toFixed(2)} EUR`; 
-        message += `\nTOTAL FINAL: ${totalPrice.toFixed(2)} EUR`; 
+        if (discount > 0) message += `\nREDUCTION (${appliedPromo}): -${discount.toFixed(2)} EUR`;
+        message += `\nTOTAL FINAL: ${totalPrice.toFixed(2)} EUR`;
         message += " \n-LIVRAISON: A convenir\n";
         message += " \n-CONTACT: Merci de confirmer cette commande\n";
         message += ` \n-Commande passee le: ${formattedDate}\n`;
@@ -887,15 +1040,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function copyToClipboard(text) {
-        if (navigator.clipboard) { 
+        if (navigator.clipboard) {
             navigator.clipboard.writeText(text).then(() => {
                 showNotification('✅ Commande copiée ! Colle-la dans le chat.');
                 tg.HapticFeedback.notificationOccurred('success');
             }, (err) => { showNotification('❌ Erreur en copiant le message'); });
-        } else { 
+        } else {
             const textArea = document.createElement('textarea');
             textArea.value = text;
-            textArea.style.position = 'fixed'; 
+            textArea.style.position = 'fixed';
             document.body.appendChild(textArea);
             textArea.focus();
             textArea.select();
@@ -942,10 +1095,10 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
             target.classList.add('active');
-            
+
             // 2. On récupère la classe couleur définie dans l'objet product
             const colorClass = target.dataset.colorClass;
-            
+
             // 3. On applique le style au bouton cliqué (au cas où le CSS ne suffirait pas)
             // Mais le mieux est de gérer ça via l'application de la classe sur le conteneur parent (voir point 4)
             // target.style.backgroundColor = '#00c7be'; // Fallback
@@ -955,7 +1108,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tarifItems.forEach(item => {
                 // On retire TOUTES les classes de couleur possibles pour être sûr
                 item.className = 'tarif-item'; // Reset classes
-                
+
                 // On ajoute la classe spécifique de la variété sélectionnée
                 if (colorClass) {
                     item.classList.add(colorClass);
@@ -978,7 +1131,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // ... (Reste des listeners : copy-order, accordion, cat card, etc. INCHANGÉS) ...
         if (target.closest('#copy-order-btn')) {
             let message = formatOrderMessage();
-            message = message.replace(/\*/g, ''); 
+            message = message.replace(/\*/g, '');
             copyToClipboard(message);
             const copyBtn = document.getElementById('copy-order-btn');
             const contactBtn = document.getElementById('confirm-order-button');
@@ -986,8 +1139,8 @@ document.addEventListener('DOMContentLoaded', function () {
             copyBtn.classList.add('secondary-action-btn');
             contactBtn.classList.remove('secondary-action-btn');
             contactBtn.classList.add('main-action-btn');
-            contactBtn.disabled = false; 
-            return; 
+            contactBtn.disabled = false;
+            return;
         }
 
         const accordionHeader = target.closest('.accordion-header');
@@ -995,30 +1148,30 @@ document.addEventListener('DOMContentLoaded', function () {
             const accordionItem = accordionHeader.parentElement;
             document.querySelectorAll('#page-info .accordion-item.active').forEach(item => { if (item !== accordionItem) item.classList.remove('active'); });
             accordionItem.classList.toggle('active');
-            return; 
+            return;
         }
 
-       const categoryCard = target.closest('.category-card');
-       if (categoryCard) {
-           currentCategoryId = categoryCard.dataset.categoryId;
-           const category = appData.find(c => c.id === currentCategoryId);
-           if (category && category.directToProducts) {
-               currentView = 'products';
-               currentFarmId = `${currentCategoryId}_DEFAULT`; 
-           } else {
-               currentView = 'farms';
-               currentFarmId = null;
-           }
-           currentFilters.searchTerm = '';
-           document.getElementById('search-filter').value = '';
-           renderHomePage();
-           return;
-       }
+        const categoryCard = target.closest('.category-card');
+        if (categoryCard) {
+            currentCategoryId = categoryCard.dataset.categoryId;
+            const category = appData.find(c => c.id === currentCategoryId);
+            if (category && category.directToProducts) {
+                currentView = 'products';
+                currentFarmId = `${currentCategoryId}_DEFAULT`;
+            } else {
+                currentView = 'farms';
+                currentFarmId = null;
+            }
+            currentFilters.searchTerm = '';
+            document.getElementById('search-filter').value = '';
+            renderHomePage();
+            return;
+        }
 
         const farmCard = target.closest('.farm-card');
         if (farmCard) {
             if (farmCard.classList.contains('unclickable')) return;
-            currentView = 'products'; 
+            currentView = 'products';
             currentFarmId = farmCard.dataset.farmId;
             currentFilters.searchTerm = '';
             document.getElementById('search-filter').value = '';
@@ -1046,7 +1199,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const category = appData.find(c => c.id === currentCategoryId);
             if (category && category.directToProducts) {
                 currentView = 'categories';
-                currentCategoryId = null; 
+                currentCategoryId = null;
             } else {
                 currentView = 'farms';
                 currentFarmId = null;
@@ -1059,17 +1212,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (target.closest('#apply-promo-btn')) {
             const input = document.getElementById('promo-code-input');
-            const code = input.value.toUpperCase(); 
+            const code = input.value.toUpperCase();
             if (validPromoCodes[code]) {
                 appliedPromo = code;
                 tg.HapticFeedback.notificationOccurred('success');
                 showNotification('✅ Code promo appliqué !');
             } else {
-                appliedPromo = null; 
+                appliedPromo = null;
                 tg.HapticFeedback.notificationOccurred('error');
                 showNotification('❌ Code promo invalide.');
             }
-            renderConfirmation(); 
+            renderConfirmation();
         }
 
         if (target.closest('#remove-promo-btn')) { appliedPromo = null; showNotification('Code promo retiré.'); renderConfirmation(); }
@@ -1098,7 +1251,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (target.closest('#confirm-order-button')) {
             const telegramUrl = "https://t.me/PlugsBotOfficielBot";
             let message = formatOrderMessage();
-            message = message.replace(/\*/g, ''); 
+            message = message.replace(/\*/g, '');
             copyToClipboard(message);
             tg.openLink(telegramUrl);
         }
