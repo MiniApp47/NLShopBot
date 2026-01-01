@@ -46,32 +46,30 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 80.00 },
                                 { weight: '2g', price: 150.00 },
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    id: 'XTC',
+                    name: 'XTC ⚕',
+                    image: 'SousXtc.png',
+                    badgeText: '3 produits',
+                    products: [
                         {
-                            id: 'Peru',
-                            flag: '🇵🇪',
-                            name: ' Peru ',
+                            id: 'XTC 🚀',
+                            // flag: '',
+                            name: 'XTC 🚀',
                             farm: '',
                             promoEligible: true,
                             type: 'White',
-                            image: '',
-                            video: '',
-                            description: '',
-                            tarifs: [
-                                { weight: '1g', price: 80.00 },
-                                { weight: '2g', price: 150.00 },
-                            ]
-                        },
-                        {
-                            id: 'Colombia',
-                            flag: '🇨🇴',
-                            name: ' Colombia ',
-                            farm: '',
-                            promoEligible: true,
-                            type: 'White',
-                            image: '',
-                            video: '',
-                            description: '',
+                            image:'Product/ProductCoca.jpeg',
+                            images: ['Product/ProductCoca.jpeg',
+                                'Product/ProductRedbull.jpeg',
+                                'Product/ProductPringles.jpeg',
+                                'Product/ProductRolex.jpeg',
+                                'Product/ProductMario.jpeg'],
+                                video: 'Video/VideoPringles.mp4',
+                            description: 'Coca Cola 300mg \n Redbull 260mg \n Pringles 260mg \n Rolex 240mg  \n Super Mario 220mg',
                             tarifs: [
                                 { weight: '1g', price: 80.00 },
                                 { weight: '2g', price: 150.00 },
@@ -352,8 +350,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             flag: '🇺🇸',
                             name: ' Exoticz ',
                             farm: '🇺🇸 Weed USA 🇺🇸',
-                            promoEligible: true, 
-                            type: 'Weed', 
+                            promoEligible: true,
+                            type: 'Weed',
                             image: 'Product/ProductExotic.png',
                             videos: ['Video/VideoPeachZ.mp4',
                                 'Video/VideoObama.mp4',
@@ -369,25 +367,25 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: "Galactic WarHeadz 🌌", colorClass: "opt-galactic-warheadz" },
                                 { name: "Black Ice Gelato 🍦", colorClass: "opt-black-ice" },
                                 { name: "Zkittle Smackerz 🍬", colorClass: "opt-zkittle-smackerz" }
-                            ], 
+                            ],
                             tarifs: [
                                 { weight: '1g', price: 80.00 },
-                                 { weight: '2g', price: 150.00 }
-                                ]
+                                { weight: '2g', price: 150.00 }
+                            ]
                         },
-                        { 
-                        id: 'Branded USA', 
-                        flag: '🇺🇸', 
-                        name: 'Limelight x Black Magic 🧙🏼‍♂️', 
-                        farm: '🇺🇸 Branded USA 🇺🇸', 
-                        promoEligible: true, 
-                        type: 'Weed', 
-                        image: 'Product/ProductBrand.jpeg', 
-                        video: '', 
-                        description: 'Wizard Trees Blacklight Edition', 
-                        tarifs: [
-                            { weight: '2g', price: 250.00 },
-                            { weight: '4g', price: 500.00 }] 
+                        {
+                            id: 'Branded USA',
+                            flag: '🇺🇸',
+                            name: 'Limelight x Black Magic 🧙🏼‍♂️',
+                            farm: '🇺🇸 Branded USA 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'Product/ProductBrand.jpeg',
+                            video: '',
+                            description: 'Wizard Trees Blacklight Edition',
+                            tarifs: [
+                                { weight: '2g', price: 250.00 },
+                                { weight: '4g', price: 500.00 }]
                         },
 
 
@@ -441,23 +439,24 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'ImgSousCanna/SousEdibles.png',
                     badgeText: '5 produits',
                     products: [
-                        { id: '600mg', 
-                        flag: '🇺🇸', 
-                        name: '600 mg (THC)', 
-                        farm: '', 
-                        promoEligible: true, 
-                        type: 'Candy', 
-                        image: 'Product/Product600.jpeg', 
-                        videos: ['Video/Video61.mp4',
-                        'Video/Video62.mp4',
-                        'Video/Video63.mp4',
-                        'Video/Video64.mp4',
-                        'Video/Video65.mp4',
-                        'Video/Video66.mp4'], 
-                        description: 'Trolli Strawberry Puffs, Trolli Peachie, Trolli Apple, Trolli Sour Brite Octopus, Trolli Sour Brite Crawlers, Trolli Sour Brite Lips', 
-                        tarifs: [
-                            { weight: '1g', price: 80.00 },
-                            { weight: '2g', price: 150.00 }] 
+                        {
+                            id: '600mg',
+                            flag: '🇺🇸',
+                            name: '600 mg (THC)',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Candy',
+                            image: 'Product/Product600.jpeg',
+                            videos: ['Video/Video61.mp4',
+                                'Video/Video62.mp4',
+                                'Video/Video63.mp4',
+                                'Video/Video64.mp4',
+                                'Video/Video65.mp4',
+                                'Video/Video66.mp4'],
+                            description: 'Trolli Strawberry Puffs, Trolli Peachie, Trolli Apple, Trolli Sour Brite Octopus, Trolli Sour Brite Crawlers, Trolli Sour Brite Lips',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 }]
                         }
                     ]
                 },
@@ -468,18 +467,19 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'ImgSousCanna/SousThc.png',
                     badgeText: '5 produits',
                     products: [
-                        { id: '1000', 
-                        flag: '🇺🇸', 
-                        name: '1000 mg - THC Vapes USA', 
-                        farm: '', 
-                        promoEligible: true, 
-                        type: 'Vape', 
-                        image: 'Product/ProductVape.jpg', 
-                        video: 'Video/VideoVape1.mp4', 
-                        description: 'Lemon Cream Banana, Pink Runtz, Orange Runtz', 
-                        tarifs: [
-                            { weight: '1g', price: 80.00 }, 
-                            { weight: '2g', price: 150.00 }] 
+                        {
+                            id: '1000',
+                            flag: '🇺🇸',
+                            name: '1000 mg - THC Vapes USA',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Vape',
+                            image: 'Product/ProductVape.jpg',
+                            video: 'Video/VideoVape1.mp4',
+                            description: 'Lemon Cream Banana, Pink Runtz, Orange Runtz',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 }]
                         }
                     ]
                 }
