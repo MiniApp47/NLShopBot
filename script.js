@@ -452,7 +452,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '', 
                             promoEligible: true, 
                             type: 'Opioid', 
-                            image: 'Product/ProducOla.jpg',
+                            image: 'Product/ProductOla.jpg',
                             description: 'Brand: Aurobindo & Sandoz', 
                             tarifs: [
                                 { weight: '1g', price: 80.00 }, 
@@ -901,9 +901,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'ImgSousCanna/SousWeedNl.png',
                     badgeText: '5 produits',
                     products: [
-                        { id: 'AmnesiaHaze', flag: '🇺🇸', name: ' Amnesia Haze ', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+/*                         { id: 'AmnesiaHaze', flag: '🇺🇸', name: ' Amnesia Haze ', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
                         { id: 'LemonHaze', flag: '🇺🇸', name: 'Lemon Haze ', farm: '', promoEligible: true, type: 'Weed', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] }
-                    ]
+ */                    ]
                 },
                 // ... Edibles ...
                 {
@@ -1009,7 +1009,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '', 
                             promoEligible: true, 
                             type: 'Opioid', 
-                            image: 'Product/ProductGh.jpg',
+                            image: 'Product/ProductGb.jpeg',
                             description: '', 
                             tarifs: [
                                 { weight: '1g', price: 80.00 }, 
@@ -1023,7 +1023,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '', 
                             promoEligible: true, 
                             type: 'Opioid', 
-                            image: 'Product/ProductGh.jpg',
+                            image: 'Product/ProductMe.jpg',
                             description: 'Methadon HCI \n\n Brand: Sandoz ', 
                             tarifs: [
                                 { weight: '1g', price: 80.00 }, 
