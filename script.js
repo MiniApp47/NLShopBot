@@ -33,15 +33,34 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '3 produits',
                     products: [
                         {
-                            id: 'Bolivia',
-                            flag: '🇧🇴',
-                            name: 'Bolivia ',
+                            id: 'Coke',
+                            // flag: '🇺🇸',
+                            name: 'Coke',
                             farm: '',
                             promoEligible: true,
-                            type: 'White',
-                            image: '',
-                            video: '',
-                            description: '',
+                            type: 'Coke',
+                            image: 'Product/ProductC1.jpeg',
+                            images: ['Product/ProductC2.jpeg',
+                            'Product/ProductC3.jpeg'],
+                            videos: ['Video/VideoC1.mp4',
+                                    'Video/VideoC2.mp4',
+                                    'Video/VideoC3.mp4'],
+                            description: '1th 2th Colombia \n 3th 4th Bolivia \n 5th 6th Peru \n\n (All pure we don’t cut)',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'Crack Coke',
+                            // flag: '🇺🇸',
+                            name: 'Crack Coke',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Coke',
+                            image: 'Product/ProductCC1.jpeg',
+                            video : 'Video/VideoCC1.mp4',
+                            description: 'Freebase',
                             tarifs: [
                                 { weight: '1g', price: 80.00 },
                                 { weight: '2g', price: 150.00 },
@@ -61,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'XTC 🚀',
                             farm: '',
                             promoEligible: true,
-                            type: 'White',
+                            type: 'Xtc',
                             image:'Product/ProductCoca.jpeg',
                             images: ['Product/ProductCoca.jpeg',
                                 'Product/ProductRedbull.jpeg',
@@ -74,7 +93,161 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1g', price: 80.00 },
                                 { weight: '2g', price: 150.00 },
                             ]
-                        }
+                        },
+                        {
+                            id: 'Md',
+                            // flag: '🇺🇸',
+                            name: 'MDMA',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/ProductMd.jpeg',
+                            video : 'Video/VideoMd.mp4',
+                            description: 'Champagne \n (Cola also available)',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: '3-CMC',
+                            // flag: '🇺🇸',
+                            name: '3-CMC',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/Product3c.jpeg',
+                            videos: ['Video/Video3c1.mp4',
+                                    'Video/Video3c.mp4'],
+                            description: '🇮🇳 India 3CMC',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: '3-MMC',
+                            // flag: '🇺🇸',
+                            name: '3-MMC',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/Product3m.jpeg',
+                            videos: ['Video/Video3m1.mp4',
+                                    'Video/Video3m.mp4'],
+                            description: ' 🇮🇳 India 3MMC',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: '4-MMC',
+                            // flag: '🇺🇸',
+                            name: '4-MMC',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/Product4m.jpeg',
+                            // videos: ['Video/Video3m1.mp4',
+                                    // 'Video/Video3m.mp4'],
+                            description: '4-MMC',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'Tusi',
+                            // flag: '🇺🇸',
+                            name: 'Tusi',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image:'Product/ProductTusi.jpeg',
+                            images:['Product/ProductTusi2.jpeg'],
+                            video : 'Video/VideoTusi.mp4',
+                            description: 'Colombian Tusi',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'Speed',
+                            // flag: '🇺🇸',
+                            name: 'Speed',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/ProductSpeed.jpg',
+                            video : 'Video/VideoSpeed.mp4',
+                            description: 'Speed Paste 73% \n (We can also make dry on order)',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'Crystal Meth | ICE / METH',
+                            // flag: '🇺🇸',
+                            name: 'Crystal Meth | ICE / METH',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/ProductCristal.jpg',
+                            videos: ['Video/VideoCristal1.mp4',
+                                    'Video/VideoCristal.mp4'],
+                            description: '(Methamphetamine) \n\n 1 METH Mexico Efedrine \n 2 METH Iran Efedrine',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'A-PvP/Flakka ',
+                            // flag: '🇺🇸',
+                            name: 'A-PvP/Flakka ',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/ProductAp.jpg',
+                            video : 'Video/VideoAp.mp4',
+                            description: 'Monkey Dust \n\n 1. Brown Variant \n 2. White Variant',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'BLUE 69',
+                            // flag: '🇺🇸',
+                            name: 'BLUE 69',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/Product69.jpg',
+                            video : 'Video/Video69.mp4',
+                            description: 'Made of GHB, XTC & Speed. \n (We can also make Green Hulk & Love Potion on order)',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
+                        {
+                            id: 'Captagon',
+                            // flag: '🇺🇸',
+                            name: 'Captagon',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Xtc',
+                            image: 'Product/ProductCap.jpg',
+                            description: 'Fenetylline',
+                            tarifs: [
+                                { weight: '1g', price: 80.00 },
+                                { weight: '2g', price: 150.00 },
+                            ]
+                        },
                     ]
                 }
             ]
@@ -95,14 +268,197 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: 'DEPRESS_DEFAULT',
                     name: 'Depressants 🌒',
                     products: [
-                        { id: 'XA', flag: '🇺🇸', name: '✘ana✘ 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '1/2 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Oxa', flag: '🇺🇸', name: 'Oxazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '1/2 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Clone', flag: '🇺🇸', name: 'Clonazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '2 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Diaz', flag: '🇺🇸', name: 'Diazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '10 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Lora', flag: '🇺🇸', name: 'Lorazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '2.5 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Tema', flag: '🇺🇸', name: 'Temazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '10/20 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Broma', flag: '🇺🇸', name: 'Bromazepam 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '6 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'ZOLPI', flag: '🇺🇸', name: 'Zolpidem 💊', farm: '', promoEligible: true, type: 'Depressants', image: '', video: '', description: '10 Ⓜ️𝐆', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+                        { 
+                            id: 'XA', 
+                            // flag: '🇺🇸', 
+                            name: 'Xanax bars 2mg 💊', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductXa.jpg',
+                            video : 'Video/VideoXa.mp4',
+                            description: 'Lab Tested', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Al', 
+                            // flag: '🇺🇸', 
+                            name: 'Alprazolam 1mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductAl.jpg',
+                            images:['Product/ProductAl1.jpeg'],
+                            video : 'Video/VideoAL.mp4',
+                            description: 'Alprazolam Xanax 1mg \n\n Brand: Galenika', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Oz', 
+                            // flag: '🇺🇸', 
+                            name: 'Oxazepam', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductOz.jpeg',
+                            video : 'Video/VideoOz.mp4',
+                            description: '10mg 50mg \n\n Brand: Accord & Teva', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Co', 
+                            // flag: '🇺🇸', 
+                            name: 'Clonazepam 2mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductCo.jpeg',
+                            description: 'Clonazepam 2mg\n\n Brand: Galenika', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Di', 
+                            // flag: '🇺🇸', 
+                            name: 'Diazepam 10mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductDi.jpeg',
+                            video : 'Video/VideoDi.mp4',
+                            description: '10mg \n\n Brand: Roche & Galenika', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Lo', 
+                            // flag: '🇺🇸', 
+                            name: 'Lorazepam 2,5mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductLo.jpeg',
+                            description: 'Brand: HemoFarm', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Te', 
+                            // flag: '🇺🇸', 
+                            name: 'Temazepam', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductTe.jpg',
+                            images:['Product/ProductTe1.jpeg', 'Product/ProductTe2.jpeg'],
+                            video : 'Video/VideoTe.mp4',
+                            description: '10mg 20mg \n\n Brand: Aurobindo Pharma & Centrafarm', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Bro', 
+                            // flag: '🇺🇸', 
+                            name: 'Bromazepam 6mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductBro.jpeg',
+                            description: 'Brand: HemoFarm', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Zo', 
+                            // flag: '🇺🇸', 
+                            name: 'Zolpidem 10mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductZo.jpeg',
+                            description: 'Brand: HemoFarm', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Do', 
+                            // flag: '🇺🇸', 
+                            name: 'Dormicum 7,5mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductDo.jpg',
+                            description: 'Brand: CheplaPharm', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Zop', 
+                            // flag: '🇺🇸', 
+                            name: 'Zopiclon 7,5mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Depressants', 
+                            image: 'Product/ProductZop.jpg',
+                            description: 'Brand: Aurobindo Pharma', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Pre', 
+                            // flag: '🇺🇸', 
+                            name: 'Pregablin Lyrica', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductPre.jpg',
+                            images: ['Product/ProductPre.jpg'],
+                            videos: 'Video/VideoPre.mp4',
+                            description: '300mg & 75mg \n\n Brand: Pfizer', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Ola', 
+                            // flag: '🇺🇸', 
+                            name: 'Olanzapine 5mg 10mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProducOla.jpg',
+                            description: 'Brand: Aurobindo & Sandoz', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        }
                     ]
                 }
             ]
@@ -121,8 +477,71 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: 'PSYCHEDELICS_DEFAULT',
                     name: 'Produits Psychedelics',
                     products: [
-                        { id: 'LSD200', flag: '🇺🇸', name: ' LSD 200 🔋 ', farm: '', promoEligible: false, type: 'Psychedelics', image: '', video: '', description: '', tarifs: [{ weight: '3,5g', price: 130.00 }, { weight: '7g', price: 250.00 }, { weight: '10,5g', price: 350.00 }] },
-                        { id: 'LSD300', flag: '🇺🇸', name: ' LSD 300 🔋 ', farm: '', promoEligible: false, type: 'Psychedelics', image: '', video: '', description: '', tarifs: [{ weight: '3,5g', price: 130.00 }, { weight: '7g', price: 250.00 }, { weight: '10,5g', price: 350.00 }] }
+                        { 
+                         id: 'LSD',
+                         // flag: '🇺🇸', 
+                         name: ' LSD 🔋 ', 
+                         farm: '', 
+                         promoEligible: false, 
+                         type: 'Psychedelics', 
+                         image: 'Product/ProductL.jpg',
+                         video : 'Video/VideoL.mp4',
+                         description: 'The Night Warden 300ug \n Astro Goblin 200ug \n Super Mario 150ug', 
+                         tarifs: [
+                            { weight: '3,5g', price: 130.00 },
+                            { weight: '7g', price: 250.00 }, 
+                            { weight: '10,5g', price: 350.00 }
+                            ] 
+                        },
+                        { 
+                            id: '2-CB',
+                            // flag: '🇺🇸', 
+                            name: '2-CB', 
+                            farm: '', 
+                            promoEligible: false, 
+                            type: 'Psychedelics', 
+                            image: 'Product/Product2c.jpg',
+                            images: ['Product/Product2c1.jpeg'],
+                            videos : ['Video/Video2c1.mp4','Video/Video2c.mp4'],
+                            description: 'Pink Nasa 24 MG \n Gold Lion 21 MG', 
+                            tarifs: [
+                               { weight: '3,5g', price: 130.00 },
+                               { weight: '7g', price: 250.00 }, 
+                               { weight: '10,5g', price: 350.00 }
+                               ] 
+                           },
+                           { 
+                            id: 'DMT',
+                            // flag: '🇺🇸', 
+                            name: ' DMT ', 
+                            farm: '', 
+                            promoEligible: false, 
+                            type: 'Psychedelics', 
+                            image: 'Product/ProductD.jpg',
+                            video : 'Video/VideoD.mp4',
+                            description: 'DMT Yellow', 
+                            tarifs: [
+                               { weight: '3,5g', price: 130.00 },
+                               { weight: '7g', price: 250.00 }, 
+                               { weight: '10,5g', price: 350.00 }
+                               ] 
+                           },
+                           { 
+                            id: 'Shrooms',
+                            // flag: '🇺🇸', 
+                            name: 'Shrooms', 
+                            farm: '', 
+                            promoEligible: false, 
+                            type: 'Psychedelics', 
+                            image: 'Product/ProductSh.jpg',
+                            images: ['Product/ProductSh1.jpg', 'Product/ProductSh2.jpg'],
+                            description: 'Psilocybe Cubensis', 
+                            tarifs: [
+                               { weight: '3,5g', price: 130.00 },
+                               { weight: '7g', price: 250.00 }, 
+                               { weight: '10,5g', price: 350.00 }
+                               ] 
+                           }
                     ]
                 }
             ]
@@ -135,7 +554,61 @@ document.addEventListener('DOMContentLoaded', function () {
             quality: ' 😶‍🌫️ Dissociatives',
             image: 'CategDisso.png',
             directToProducts: true,
-            farms: [{ id: 'DISSO_DEFAULT', name: 'Produits Dissociatifs', products: [] }]
+            farms: [
+                { 
+                    id: 'DISSO_DEFAULT', 
+                    name: 'Produits Dissociatifs', 
+                    products: [
+                        { 
+                            id: 'Red Ketamine',
+                            // flag: '🇺🇸', 
+                            name: 'Red Ketamine', 
+                            farm: '', 
+                            promoEligible: false, 
+                            type: 'Psychedelics', 
+                            image: 'Product/ProductK.jpg',
+                            videos : ['Video/VideoK1.mp4','Video/VideoK.mp4'],
+                            description: 'Red Seal Sugar India', 
+                            tarifs: [
+                               { weight: '3,5g', price: 130.00 },
+                               { weight: '7g', price: 250.00 }, 
+                               { weight: '10,5g', price: 350.00 }
+                               ] 
+                        },
+                        { 
+                            id: 'Blue Ketamine',
+                            // flag: '🇺🇸', 
+                            name: 'Blue Ketamine', 
+                            farm: '', 
+                            promoEligible: false, 
+                            type: 'Psychedelics', 
+                            image: 'Product/ProductKb.jpg',
+                            video : 'Video/Videokb.mp4',
+                            description: 'Blue Seal Needle India', 
+                            tarifs: [
+                               { weight: '3,5g', price: 130.00 },
+                               { weight: '7g', price: 250.00 }, 
+                               { weight: '10,5g', price: 350.00 }
+                               ] 
+                        },
+                        { 
+                            id: 'Rocks Ketamine',
+                            // flag: '🇺🇸', 
+                            name: 'Rocks Ketamine', 
+                            farm: '', 
+                            promoEligible: false, 
+                            type: 'Psychedelics', 
+                            image: 'Product/ProductKr.jpeg',
+                            description: 'Rocks', 
+                            tarifs: [
+                               { weight: '3,5g', price: 130.00 },
+                               { weight: '7g', price: 250.00 }, 
+                               { weight: '10,5g', price: 350.00 }
+                               ] 
+                        },
+                    ] 
+                }
+            ]
         },
         {
             id: 'CANNA',
@@ -499,15 +972,183 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: 'OPIO_DEFAULT',
                     name: '𝐎pioi𝐃 💥',
                     products: [
-                        { id: 'Trama', flag: '🇺🇸', name: 'TRAMADOL', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: '50mg', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Code', flag: '🇺🇸', name: 'Codeine phosphate', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: ' 20 mg ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Oxcy', flag: '🇺🇸', name: 'OXYCODONE', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: '5 - 80 mg', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Metha', flag: '🇺🇸', name: 'METHADONE', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: ' 5 mg ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Fanta', flag: '🇺🇸', name: 'FANTANYL', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: '12 - 100 µg', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'hero', flag: '🇺🇸', name: 'Heroin', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'lean', flag: '🇺🇸', name: 'Lean 🥤', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'GHB', flag: '🇺🇸', name: 'GHB ', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'GBL', flag: '🇺🇸', name: 'GBL ', farm: '', promoEligible: true, type: 'Opioid', image: '', video: '', description: '', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+                        { 
+                            id: 'hero', 
+                            // flag: '🇺🇸', 
+                            name: 'Heroin / Brown', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductHe.jpg',
+                            video: 'Video/VideoHe.mp4',
+                            description: 'Afghan Heroin Uncut', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'GHB', 
+                            // flag: '🇺🇸', 
+                            name: 'GHB', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductGh.jpg',
+                            video: 'Video/VideGh.mp4',
+                            description: 'GHB ( PH:7,2 )', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'GBL', 
+                            // flag: '🇺🇸', 
+                            name: 'GBL', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductGh.jpg',
+                            description: '', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Me', 
+                            // flag: '🇺🇸', 
+                            name: 'Methadon', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductGh.jpg',
+                            description: 'Methadon HCI \n\n Brand: Sandoz ', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Oxy', 
+                            // flag: '🇺🇸', 
+                            name: 'Oxycodon', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductOxy.jpg',
+                            videos: ['Video/VideoOxy.mp4', 'Video/VideoOxy1.mp4'],
+                            description: '5mg 10mg 80mg \n\n Brand: Aurobindo & Sandoz', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Til', 
+                            // flag: '🇺🇸', 
+                            name: 'Tilidin 50mg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductTil.jpg',
+                            description: 'Brand: StadaPharm ', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Fen', 
+                            // flag: '🇺🇸', 
+                            name: 'Fentanly 100mcg', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductFen.jpg',
+                            description: '', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'FenPl', 
+                            // flag: '🇺🇸', 
+                            name: 'Fentanly Plasters', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductFenPl.jpg',
+                            images: ['Product/ProductFenPl1.jpg', 'Product/ProductFenPl2.jpg', 'Product/ProductFenPl3.jpg'],
+                            video: 'Video/VideoFenPl.mp4',
+                            description: '12ug 25ug 50ug 75ug 100ug \n\n Brand: 1A Pharma & Sandoz', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Oxy2', 
+                            // flag: '🇺🇸', 
+                            name: 'Oxynorm Drink', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductOxy2.jpg',
+                            video: 'Video/VideoOxy2.mp4',
+                            description: '10mg/ml \n\n Brand: Mundipharma', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Mor', 
+                            // flag: '🇺🇸', 
+                            name: 'Morphinesulfate Drink', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductMor.jpg',
+                            video: 'Video/VideoMor.mp4',
+                            description: 'Oramorph 10mg/5ml \n\n Brand: Molteni Farmaceutici', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Tos', 
+                            // flag: '🇺🇸', 
+                            name: 'Toseína Lean', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductTos.jpg',
+                            video: 'Video/VideoTos.mp4',
+                            description: '2mg/ml \n\n Brand: ItalFarmaCo', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'Mak', 
+                            // flag: '🇺🇸', 
+                            name: 'Makatussin Lean', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductMak.png',
+                            video: 'Video/VideoMak.mp4',
+                            description: 'Brand: Gebro Pharma', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        }
                     ]
                 }
             ]
@@ -526,12 +1167,81 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: 'SEUAL_DEFAULT',
                     name: ' 𝟙𝟠₊ Medication 🥵',
                     products: [
-                        { id: 'KamaG', flag: '🇺🇸', name: 'Kamagra Green 🧩', farm: '', promoEligible: true, type: '𝟙𝟠₊ Medication', image: '', video: '', description: ' 100 Ⓜ️𝐆 ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'KamaL', flag: '🇺🇸', name: 'Kamagra Lady 💃', farm: '', promoEligible: true, type: '𝟙𝟠₊ Medication', image: '', video: '', description: ' 100 Ⓜ️𝐆 ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Cen', flag: '🇺🇸', name: 'Cenforce 💯', farm: '', promoEligible: true, type: '𝟙𝟠₊ Medication', image: '', video: '', description: ' 200 Ⓜ️𝐆 ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Vida', flag: '🇺🇸', name: 'Vidalista 📃', farm: '', promoEligible: true, type: '𝟙𝟠₊ Medication', image: '', video: '', description: ' 60/80 Ⓜ️𝐆 ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'Cobra', flag: '🇺🇸', name: 'Cobra 🐍', farm: '', promoEligible: true, type: '𝟙𝟠₊ Medication', image: '', video: '', description: ' 100 Ⓜ️𝐆 ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
-                        { id: 'KamaO', flag: '🇺🇸', name: 'Kamagra OralJelly 🍭', farm: '', promoEligible: true, type: '𝟙𝟠₊ Medication', image: '', video: '', description: ' 100 Ⓜ️𝐆 ', tarifs: [{ weight: '1g', price: 80.00 }, { weight: '2g', price: 150.00 }] },
+                        { 
+                            id: 'KamM', 
+                            // flag: '🇺🇸', 
+                            name: 'Kamagra Men', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductKamM.jpg',
+                            video: 'Video/VideoKamM.mp4',
+                            description: '100mg', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'KamL', 
+                            // flag: '🇺🇸', 
+                            name: 'Kamagra Lady', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductKamL.jpg',
+                            video: 'Video/VideoKamL.mp4',
+                            description: '100mg', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'KamMC', 
+                            // flag: '🇺🇸', 
+                            name: 'Kamagra Men Cobra', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductKamMC.jpg',
+                            video: 'Video/VideoKamMC.mp4',
+                            description: 'Cobra 120mg', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'KamMV', 
+                            // flag: '🇺🇸', 
+                            name: 'Kamagra Men Vida', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductKamMV.jpg',
+                            video: 'Video/VideoKamMV.mp4',
+                            description: 'Vidalista 80mg', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
+                        { 
+                            id: 'KamJ', 
+                            // flag: '🇺🇸', 
+                            name: 'Kamagra Jelly', 
+                            farm: '', 
+                            promoEligible: true, 
+                            type: 'Opioid', 
+                            image: 'Product/ProductKamJ.jpg',
+                            videos: ['Video/VideoKamJ1.mp4', 'Video/VideoKamJ.mp4'],
+                            description: 'Oral Jelly 100mg', 
+                            tarifs: [
+                                { weight: '1g', price: 80.00 }, 
+                                { weight: '2g', price: 150.00 }
+                            ] 
+                        },
                     ]
                 }
             ]
@@ -610,7 +1320,25 @@ document.addEventListener('DOMContentLoaded', function () {
             const backButton = document.createElement('button');
             backButton.className = 'back-to-categories-btn';
             backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
-            backButton.style.cssText = `background: var(--tertiary-bg-color); border: none; color: white; padding: 10px 15px; border-radius: 10px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh;font-family: Copperplate;`;
+            backButton.style.cssText = `    
+            background: linear-gradient(black, transparent);
+            border-bottom: 2px solid rgb(182 162 69);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 3vh;
+            font-family: Copperplate;`;
             filterContainer.prepend(backButton);
         } else if (currentView === 'products') {
             renderProductList(currentCategoryId, currentFarmId);
@@ -630,7 +1358,25 @@ document.addEventListener('DOMContentLoaded', function () {
                 backButton.className = 'back-to-farms-btn';
                 backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>  ${farm.name}`;
             }
-            backButton.style.cssText = `background: var(--tertiary-bg-color); border: none; color: white; padding: 10px 15px; border-radius: 10px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin-top: 3vh;    font-family: Copperplate;`;
+            backButton.style.cssText = `    
+            background: linear-gradient(black, transparent);
+            border-bottom: 2px solid rgb(182 162 69);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 3vh;
+            font-family: Copperplate;`;
             filterContainer.prepend(backButton);
         }
     }
